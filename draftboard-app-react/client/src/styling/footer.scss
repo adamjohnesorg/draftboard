@@ -1,0 +1,159 @@
+$primary: #FFFFFF;
+$secondary: #383838;
+$tertiary: #384050;
+$accent: #d4d1e5;
+
+#bottomLeft {
+    min-width: 100px;
+    max-width: 100px;
+    @media (max-width: 550px)
+    {
+        display: none;
+    }
+}
+
+#bottomRight {
+    min-width: 100px;
+    max-width: 100px;
+    @media (max-width: 550px)
+    {
+        display: none;
+    }
+}
+
+#contactInfo {
+    font-size: 14px;
+    @media (max-width: 550px)
+    {
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+#copyrightInfo {
+    @media (max-width: 550px)
+    {
+        font-size: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+#emailInfo {
+    font-size: 12px;
+    @media (max-width: 550px)
+    {
+        font-size: 9px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+#footerBar {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    padding: 4px;
+    justify-content: space-evenly;
+    border: 1px solid $accent;
+    background-color: $tertiary;
+    @media (max-width: 550px)
+    {
+        padding: 0;
+        border: 1px solid $accent;
+    }
+}
+
+#footerDiv {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    min-height: 60px;
+    max-height: 60px;
+    border: 2px solid $secondary;
+    text-align: center;
+    @media (max-width: 550px)
+    {
+        min-height: 80px;
+        max-height: 80px;
+    }
+}
+
+#footerPageTitle {
+    color: $primary;
+    font-size: 16px;
+    @media (max-width: 550px)
+    {
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+#leftFooterDiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    text-align: center;
+    justify-content: space-evenly;
+    min-height: 100%;
+    max-height: 100%;
+    @media (max-width: 550px)
+    {
+        border: 1px solid $accent;
+    }
+}
+
+#middleFooterDiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height: 100%;
+    max-height: 100%;
+    @media (max-width: 550px)
+    {
+        border: 1px solid $accent;
+    }
+}
+
+#myTwitter {
+    text-decoration: underline;
+    font-size: 14px;
+    @media (max-width: 550px)
+    {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+#rightFooterDiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    text-align: center;
+    justify-content: space-evenly;
+    min-height: 100%;
+    max-height: 100%;
+    @media (max-width: 550px)
+    {
+        border: 1px solid $accent;
+    }
+}
+
+#supportMe {
+    font-size:14px;
+    @media (max-width: 550px)
+    {
+        font-size: 14px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+.titleLogo {
+    flex: 1 1 auto;
+}

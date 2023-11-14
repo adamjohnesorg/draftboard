@@ -1,0 +1,57 @@
+$primary: #FFFFFF;
+$secondary: #383838;
+$tertiary: #384050;
+$accent: #d4d1e5;
+
+#headerBar {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $accent;
+    background-color: $tertiary;
+}
+
+#headerDiv {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    min-width: 99.7%;
+    max-width: 99.7%;
+    min-height: 100px;
+    max-height: 100px;
+    justify-content: center;
+    border:2px solid $secondary;
+}
+
+.headerPageTitle {
+    font-size: 44px;
+    color: $primary;
+    @media (max-width: 800px)
+    {
+        font-size: 24px;
+    }
+    @media (max-width: 550px)
+    {
+        font-size: 17px;
+    }
+    @media (max-width: 400px)
+    {
+        font-size: 15px;
+    }
+    @media (min-width: 625px) and (max-width: 975px)
+    {
+        font-size: 16px;
+    }
+}
+
+.titleLogo {
+    flex: 1 1 auto;
+    max-width: 160px;
+    @media (max-width: 550px)
+    {
+        max-width: 20px;
+    }
+}

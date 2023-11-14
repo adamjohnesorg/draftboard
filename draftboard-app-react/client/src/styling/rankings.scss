@@ -1,0 +1,211 @@
+$primary: #FFFFFF;
+$secondary: #383838;
+$tertiary: #384050;
+$accent: #d4d1e5;
+
+#captionRankings {
+    @media (max-width: 550px)
+    {
+        font-size: 24px;
+    }
+    cursor: default;
+}
+
+@media (max-width: 550px)
+{
+    #check {
+        display: none;
+    }
+
+    #checkButton {
+        display: none;
+    }
+
+    #rtCheckColumn {
+        display: none;
+    }
+
+    #checkboxImg {
+        display: none;
+    }
+}
+
+@media (min-width: 625px) and (max-width: 975px)
+{
+    #check {
+        display: none;
+    }
+
+    #rtCheckColumn {
+        display: none;
+    }
+
+    #checkboxImg {
+        display: none;
+    }
+}
+
+#check {
+    max-width: 30%;
+    min-width: 30%;
+    min-height: 15px;
+    max-height: 15px;
+}
+
+#checkboxImg {
+    min-width:20px;
+    max-width:20px;
+    margin-top: 2px;
+}
+
+#filteredDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid black;
+    min-height: 85%;
+    max-height: 85%;
+    @media (max-width: 550px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 56vh;
+        max-height: 56vh;
+        overflow-y: scroll;
+    }
+    @media (min-width: 625px) and (max-width: 975px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 56vh;
+        max-height: 56vh;
+        overflow-y: scroll;
+    }
+}
+
+.rankedColumnsRow {
+    cursor: default;
+}
+
+#rankingsDiv {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    max-width: 50%;
+    align-items: center;
+    @media (min-width: 1100px)
+    {
+        overflow-y: scroll;
+    }
+    @media (max-width: 550px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    @media (min-width: 625px) and (max-width: 975px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#rankingsHeader {
+    text-align: center;
+    @media (max-width: 550px)
+    {
+        color: $primary;
+    }
+}
+
+#ranksTable {
+    max-height: 80vh;
+    align-self: baseline;
+    margin-top: 10px;
+    @media (max-width: 550px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#ranksTable:hover {
+    cursor:grab;
+}
+
+#remove {
+/* CSS */
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px $secondary, 0.5px 0.5px 0.5px 0.5px $tertiary;
+    @media (min-width: 550px)
+    {
+        min-width: 40%;
+        font-weight: bold;
+        border: 1px solid $secondary;
+        box-shadow: none;
+    }
+}
+
+#remove:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+#remove:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+#rtButtonColumn {
+    font-size: 12px;
+    min-width: 10%;
+    max-width: 10%;
+    @media (max-width: 550px)
+    {
+        font-size: 11px;
+    }
+}
+
+#rtCheckColumn {
+    max-width: 10%;
+    min-width: 10%;
+}
+
+.rtColumnTitle {
+    position: sticky;
+    top: 0; 
+    color: $primary;
+    background-color: $tertiary;
+    border: 2px solid $secondary;
+    @media (max-width: 550px)
+    {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+
+#rtNameColumn {
+    min-width:25%;
+    @media (max-width: 550px)
+    {
+        min-width:35%;
+    }
+}
+
+#rtPlayerName {
+    font-family: 'Segoe UI Light';
+    font-weight: bold;
+}
+
+#splitterDiv {
+    display: none;
+    @media (max-width: 550px)
+    {
+        display: inline-block;
+        min-width: 100%;
+        max-width: 100%;
+        background-color: $tertiary;
+    }
+}

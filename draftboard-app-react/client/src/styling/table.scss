@@ -1,0 +1,178 @@
+$primary: #FFFFFF;
+$secondary: #383838;
+$tertiary: #384050;
+$accent: #d4d1e5;
+
+#add {
+    font-size: 12px;
+    min-width: 10%;
+    max-width: 10%;
+    @media (max-width: 550px)
+    {
+        font-size: 10px;
+    }
+    padding: 3px;
+}
+
+#addButton {
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px $secondary, 0.5px 0.5px 0.5px 0.5px $tertiary;
+}
+
+#ageColumn {
+    @media (min-width: 550px)
+    {
+        max-width: 10%;
+        min-width: 10%;
+    }
+}
+
+.columnTitle {
+    position:sticky;
+    top:0;
+    background-color:white;
+    border: 1px solid $accent;
+    color: $primary;
+    background-color: $tertiary;
+    @media (max-width: 550px)
+    {
+        font-size: 12px;  
+    }
+}
+
+.rankedColumnsRow {
+    text-align:center;
+}
+
+#dropdown {
+    text-align: center;
+    color: $tertiary;
+    background-color: $primary;
+    font-weight: bold;
+    @media (max-width: 550px)
+    {
+        color: $tertiary;
+        background-color: lightgray;
+    }
+}
+
+.dropdownOption {
+    text-align: center;
+    color: $primary;
+    background-color: $tertiary;
+    font-weight: bold;
+}
+
+.kRow {
+    text-align: center;
+    background-color: rgba(212, 200, 243, 0.649);
+    
+}
+
+#nameColumn {
+    max-width: 30%;
+    min-width: 30%;
+    @media (max-width: 550px)
+    {
+        font-size: 20px;
+    }
+}
+
+.player {
+    border: 1px solid $accent;
+    @media (max-width: 550px)
+    {
+        font-size: 15px;
+        padding: 4px;
+    }
+}
+
+#playerName {
+    font-family: 'Segoe UI Light';
+    font-weight: bold;
+}
+
+#positionsLabel {
+    font-size: 13px;
+}
+
+.qbRow {
+    text-align: center;
+    background-color: rgba(251, 220, 224, 0.571);
+    @media (max-width: 550px)
+    {
+        font-size: 18px;
+    }
+}
+
+.rbRow {
+    text-align: center;
+    background-color: rgba(205, 227, 235, 0.628);
+    @media (max-width: 550px)
+    {
+        font-size: 18px;
+    }
+}
+
+#tableDiv {
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    min-height: 80vh;
+    max-height: 80vh;
+    @media (max-width: 550px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 52vh;
+        max-height: 52vh;
+    }
+    @media (min-width: 625px) and (max-width: 975px)
+    {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.teRow {
+    text-align: center;
+    background-color: rgba(251, 251, 220, 0.627);
+    @media (max-width: 550px)
+    {
+        font-size: 18px;
+    }
+}
+
+.wholeTable {
+    max-height: 80vh;
+    align-self: baseline;
+    min-width: 90%;
+    margin-top: 10px;
+    @media (max-width: 550px)
+    {
+        margin-top: 10px;
+    }
+}
+
+.wrRow {
+    text-align: center;
+    background-color: rgba(218, 249, 218, 0.637);
+    @media (max-width: 550px)
+    {
+        font-size: 18px;
+    }
+}
+
+#yearsColumn {
+    @media (min-width: 550px)
+    {
+        max-width: 15%;
+        min-width: 15%;
+    }
+}
