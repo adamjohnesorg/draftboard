@@ -1,5 +1,5 @@
 {
-  "homepage": "https://footballdraftboard.com",
+  "homepage": "https://footballdraftboard.net",
   "name": "draftboard-react",
   "version": "0.1.0",
   "proxy": "http://localhost:3000",

@@ -12,7 +12,7 @@ const Footer = () =>
               </div>
               <div id='middleFooterDiv'>
                 <span id='footerPageTitle'>Fantasy Football Rankings Draftboard</span>
-                <span id='copyrightInfo'>&copy; Adam Johnes 2023</span>
+                <span id='copyrightInfo'>&copy; Adam Johnes 2024</span>
               </div>
               <div id='rightFooterDiv'>
                 <span id='supportMe'>Support Me</span>

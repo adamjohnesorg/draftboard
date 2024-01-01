@@ -883,15 +883,6 @@
           "search_rank": 75
         },
         {
-          "first": "Drew",
-          "last": "Brees",
-          "position": "QB",
-          "team": "",
-          "age": 42,
-          "years_exp": 20,
-          "search_rank": 76
-        },
-        {
           "first": "Anthony",
           "last": "Richardson",
           "position": "QB",
@@ -1585,15 +1576,6 @@
           "search_rank": 148
         },
         {
-          "first": "Philip",
-          "last": "Rivers",
-          "position": "QB",
-          "team": "",
-          "age": 40,
-          "years_exp": 18,
-          "search_rank": 150
-        },
-        {
           "first": "Jordan",
           "last": "Love",
           "position": "QB",
@@ -1771,7 +1753,7 @@
           "team": "",
           "age": 33,
           "years_exp": 11,
-          "search_rank": 169
+          "search_rank": 370
         },
         {
           "first": "Zay",
@@ -1816,7 +1798,7 @@
           "team": "",
           "age": 37,
           "years_exp": 16,
-          "search_rank": 172
+          "search_rank": 370
         },
         {
           "first": "Roschon",
@@ -1909,15 +1891,6 @@
           "search_rank": 187
         },
         {
-          "first": "Frank",
-          "last": "Gore",
-          "position": "RB",
-          "team": "",
-          "age": 38,
-          "years_exp": 17,
-          "search_rank": 187
-        },
-        {
           "first": "Van",
           "last": "Jefferson",
           "position": "WR",
@@ -1987,15 +1960,6 @@
           "team": "CAR",
           "age": 27,
           "years_exp": 5,
-          "search_rank": 198
-        },
-        {
-          "first": "Tyrell",
-          "last": "Williams",
-          "position": "WR",
-          "team": "",
-          "age": 29,
-          "years_exp": 7,
           "search_rank": 198
         },
         {
@@ -2086,15 +2050,6 @@
           "team": "DET",
           "age": 24,
           "years_exp": 3,
-          "search_rank": 210
-        },
-        {
-          "first": "Ted",
-          "last": "Ginn",
-          "position": "WR",
-          "team": "",
-          "age": 36,
-          "years_exp": 15,
           "search_rank": 210
         },
         {
@@ -2222,15 +2177,6 @@
           "age": 33,
           "years_exp": 13,
           "search_rank": 219
-        },
-        {
-          "first": "Cam",
-          "last": "Newton",
-          "position": "QB",
-          "team": "",
-          "age": 32,
-          "years_exp": 11,
-          "search_rank": 220
         },
         {
           "first": "Curtis",
@@ -3493,15 +3439,6 @@
           "search_rank": 328
         },
         {
-          "first": "Matt",
-          "last": "Ryan",
-          "position": "QB",
-          "team": "",
-          "age": 37,
-          "years_exp": 15,
-          "search_rank": 328
-        },
-        {
           "first": "Andrew",
           "last": "Ogletree",
           "position": "TE",
@@ -4339,15 +4276,6 @@
           "search_rank": 376
         },
         {
-          "first": "Ben",
-          "last": "Roethlisberger",
-          "position": "QB",
-          "team": "PIT",
-          "age": 39,
-          "years_exp": 18,
-          "search_rank": 376
-        },
-        {
           "first": "Xavier",
           "last": "Gipson",
           "position": "WR",
@@ -4735,15 +4663,6 @@
           "search_rank": 398
         },
         {
-          "first": "Todd",
-          "last": "Gurley",
-          "position": "RB",
-          "team": "",
-          "age": 27,
-          "years_exp": 7,
-          "search_rank": 400
-        },
-        {
           "first": "Malik",
           "last": "Willis",
           "position": "QB",
@@ -5120,15 +5039,6 @@
           "age": 29,
           "years_exp": 7,
           "search_rank": 424
-        },
-        {
-          "first": "Alex",
-          "last": "Smith",
-          "position": "QB",
-          "team": "",
-          "age": 37,
-          "years_exp": 17,
-          "search_rank": 425
         },
         {
           "first": "Eric",
@@ -5614,15 +5524,6 @@
           "team": "",
           "age": 31,
           "years_exp": 10,
-          "search_rank": 450
-        },
-        {
-          "first": "Tom",
-          "last": "Brady",
-          "position": "QB",
-          "team": "",
-          "age": 45,
-          "years_exp": 23,
           "search_rank": 450
         },
         {
@@ -6127,15 +6028,6 @@
           "team": "DET",
           "age": 29,
           "years_exp": 7,
-          "search_rank": 484
-        },
-        {
-          "first": "Robert",
-          "last": "Griffin",
-          "position": "QB",
-          "team": "",
-          "age": 31,
-          "years_exp": 10,
           "search_rank": 484
         },
         {
