@@ -62,13 +62,13 @@ const Ovr = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
       e.preventDefault()
       if (rankedPlayers.indexOf(destination) > rankedPlayers.indexOf(origin))
       {
-        rankedPlayers.splice(rankedPlayers.indexOf(destination), 1, origin)
-        rankedPlayers.splice(rankedPlayers.indexOf(origin), 1, destination)
+        rankedPlayers.splice(rankedPlayers.indexOf(destination) + 1, 0, origin)
+        rankedPlayers.splice(rankedPlayers.indexOf(origin), 1) //deleting dragged item
       }
       else
       {
-        rankedPlayers.splice(rankedPlayers.indexOf(origin), 1, destination)
-        rankedPlayers.splice(rankedPlayers.indexOf(destination), 1, origin)
+        rankedPlayers.splice(rankedPlayers.indexOf(origin), 1)
+        rankedPlayers.splice(rankedPlayers.indexOf(destination), 0, origin)
       }
       setRefresh(!refresh)
     }
@@ -81,17 +81,15 @@ const Ovr = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
       }
       else if ((!justSwapped) && (origin.first !== undefined))
       {
-        console.log(rankedPlayers.indexOf(player))
-        console.log(rankedPlayers.indexOf(origin))
         if (rankedPlayers.indexOf(player) > rankedPlayers.indexOf(origin))
         {
-          rankedPlayers.splice(rankedPlayers.indexOf(player), 1, origin)
-          rankedPlayers.splice(rankedPlayers.indexOf(origin), 1, player)
+          rankedPlayers.splice(rankedPlayers.indexOf(player) + 1, 0, origin)
+          rankedPlayers.splice(rankedPlayers.indexOf(origin), 1) //deleting dragged item
         }
         else
         {
-          rankedPlayers.splice(rankedPlayers.indexOf(origin), 1, player)
-          rankedPlayers.splice(rankedPlayers.indexOf(player), 1, origin)
+          rankedPlayers.splice(rankedPlayers.indexOf(origin), 1)
+          rankedPlayers.splice(rankedPlayers.indexOf(player), 0, origin)
         }
         setOrigin({})
         setJustSwapped(true)

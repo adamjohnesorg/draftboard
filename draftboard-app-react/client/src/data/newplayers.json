@@ -55,6 +55,15 @@
           "search_rank": 4
         },
         {
+          "first": "CeeDee",
+          "last": "Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "age": 24,
+          "years_exp": 3,
+          "search_rank": 5
+        },
+        {
           "first": "Travis",
           "last": "Kelce",
           "position": "TE",
@@ -124,15 +133,6 @@
           "team": "PHI",
           "age": 26,
           "years_exp": 4,
-          "search_rank": 12
-        },
-        {
-          "first": "CeeDee",
-          "last": "Lamb",
-          "position": "WR",
-          "team": "DAL",
-          "age": 24,
-          "years_exp": 3,
           "search_rank": 12
         },
         {
