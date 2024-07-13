@@ -7,7 +7,6 @@ import TE from './TE'
 import Flex from './Flex'
 import K from './K'
 import '../styling/tabs.scss'
-import { jsPDF } from "jspdf";
 import * as html2canvas from 'html2canvas'
 
 const Tabs = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) => 
@@ -25,7 +24,7 @@ const Tabs = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
         }
     }, [])
 
-    const isMobile = width <= 768
+    //const isMobile = width <= 768
     
     const toggleTab = () => {
 
@@ -103,17 +102,24 @@ const Tabs = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
         }
     }
 
-    const printPDF = () => 
+    const printImage = () => 
     {
       const input = document.getElementById('ranksTable')
+      /*
       var rowsPerPage = 35
       if (isMobile)
       {
         rowsPerPage = rowsPerPage / 2
       }
+      */
       html2canvas(input)
         .then((canvas) => {
-          const imgData = canvas.toDataURL('image/png');
+          const image = canvas.toDataURL("png");
+          var a = document.createElement("a");
+          a.setAttribute('download', 'FootballDraftBoardRankings.png');
+          a.setAttribute('href', image);
+          a.click()
+          /*
           const pdf = new jsPDF('p', 'mm', 'a4');
           var width = pdf.internal.pageSize.getWidth();
           var height = pdf.internal.pageSize.getHeight() / (rowsPerPage / (rankedPlayers.length + 1))
@@ -125,13 +131,14 @@ const Tabs = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
           }
 
           pdf.save("playerRankings.pdf");
+          */
         })
     }
 
     return (
       <>
         <div id='adviceAndClearDiv'>
-            <button id='printPdfButton' onClick={() => printPDF()}>Download as Printable PDF</button>
+            <button id='printPdfButton' onClick={() => printImage()}>Download Rank Table</button>
             <span id='adviceDesktop'>Swap players in your rankings by dragging and dropping them around!</span>
             <span id='adviceMobile'>Swap players in your rankings by touching their NAMES!</span>
             <button className='buttonClass' id='clear' onClick={() => clearRankings()}>Clear Rankings</button>

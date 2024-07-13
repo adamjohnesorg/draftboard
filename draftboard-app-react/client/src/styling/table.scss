@@ -90,8 +90,12 @@ $accent: #d4d1e5;
 }
 
 #playerName {
-    font-family: 'Segoe UI Light';
+    font-family: 'Segoe UI Light', Gill Sans;
     font-weight: bold;
+    @media (max-width: 550px)
+    {
+        font-weight: normal;
+    }
 }
 
 #positionsLabel {
@@ -100,7 +104,7 @@ $accent: #d4d1e5;
 
 .qbRow {
     text-align: center;
-    background-color: rgba(251, 220, 224, 0.571);
+    background-color: rgba(245, 61, 85, 0.188);
     @media (max-width: 550px)
     {
         font-size: 18px;
@@ -109,7 +113,7 @@ $accent: #d4d1e5;
 
 .rbRow {
     text-align: center;
-    background-color: rgba(205, 227, 235, 0.628);
+    background-color: rgba(13, 86, 113, 0.219);
     @media (max-width: 550px)
     {
         font-size: 18px;
@@ -142,7 +146,7 @@ $accent: #d4d1e5;
 
 .teRow {
     text-align: center;
-    background-color: rgba(251, 251, 220, 0.627);
+    background-color: rgba(155, 155, 20, 0.169);
     @media (max-width: 550px)
     {
         font-size: 18px;
@@ -162,7 +166,7 @@ $accent: #d4d1e5;
 
 .wrRow {
     text-align: center;
-    background-color: rgba(218, 249, 218, 0.637);
+    background-color: rgba(32, 162, 32, 0.181);
     @media (max-width: 550px)
     {
         font-size: 18px;

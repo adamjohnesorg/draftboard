@@ -195,8 +195,12 @@ $accent: #d4d1e5;
 }
 
 #rtPlayerName {
-    font-family: 'Segoe UI Light';
+    font-family: 'Segoe UI Light', Gill Sans;
     font-weight: bold;
+    @media (max-width: 550px)
+    {
+        font-weight: normal;
+    }
 }
 
 #splitterDiv {

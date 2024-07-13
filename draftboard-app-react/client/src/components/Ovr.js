@@ -7,6 +7,7 @@ const Ovr = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
     const [origin, setOrigin] = useState({})
     const [destination, setDestination] = useState({})
     const [justSwapped, setJustSwapped] = useState(false)
+    const [bgcolor, setbgcolor] = useState('')
 
     if (typeof rankedPlayers === 'undefined')
     {
@@ -50,6 +51,8 @@ const Ovr = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
     function handleDragStart(player)
     {
       setOrigin(player)
+      setbgcolor(document.getElementById(player.first + player.last + 'Rrow').style.backgroundColor)
+      document.getElementById(player.first + player.last + 'Rrow').style.backgroundColor = "rgba(250, 250, 150, 0.85)"
     }
 
     function handleDragEnter(e, player)
@@ -70,6 +73,7 @@ const Ovr = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
         rankedPlayers.splice(rankedPlayers.indexOf(origin), 1)
         rankedPlayers.splice(rankedPlayers.indexOf(destination), 0, origin)
       }
+      document.getElementById(origin.first + origin.last + 'Rrow').style.backgroundColor = bgcolor
       setRefresh(!refresh)
     }
 
@@ -93,11 +97,14 @@ const Ovr = ({ rankedPlayers, stateChanger, playersTable, setPlayerStates }) =>
         }
         setOrigin({})
         setJustSwapped(true)
+        document.getElementById(origin.first + origin.last + 'Rrow').style.backgroundColor = bgcolor
         return
       }
       else
       {
         setOrigin(player)
+        setbgcolor(document.getElementById(player.first + player.last + 'Rrow').style.backgroundColor)
+        document.getElementById(player.first + player.last + 'Rrow').style.backgroundColor = "rgba(250, 250, 150, 0.85)"
         setJustSwapped(false)
       }
     }

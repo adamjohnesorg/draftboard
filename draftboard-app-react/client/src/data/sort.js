@@ -5,8 +5,17 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 25,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 317
+	},
+	{
+		"first": "Noah",
+		"last": "Brown",
+		"position": "WR",
+		"team": "HOU",
+		"age": 28,
+		"years_exp": 7,
+		"search_rank": 305
 	},
 	{
 		"first": "Nate",
@@ -54,15 +63,6 @@ var playersData = [
 		"search_rank": 334
 	},
 	{
-		"first": "Riley",
-		"last": "Patterson",
-		"position": "K",
-		"team": "DET",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 206
-	},
-	{
 		"first": "Rodrigo",
 		"last": "Blankenship",
 		"position": "K",
@@ -77,8 +77,17 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 0,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 472
+	},
+	{
+		"first": "Colby",
+		"last": "Parkinson",
+		"position": "TE",
+		"team": "LAR",
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 247
 	},
 	{
 		"first": "Malik",
@@ -86,7 +95,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 277
 	},
 	{
@@ -99,40 +108,22 @@ var playersData = [
 		"search_rank": 457
 	},
 	{
-		"first": "Tyquan",
-		"last": "Thornton",
-		"position": "WR",
-		"team": "NE",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 266
-	},
-	{
-		"first": "Rodney",
-		"last": "Williams",
+		"first": "Cade",
+		"last": "Stover",
 		"position": "TE",
-		"team": "PIT",
-		"age": 25,
-		"years_exp": 1,
-		"search_rank": 305
+		"team": "HOU",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 359
 	},
 	{
 		"first": "Javonte",
 		"last": "Williams",
 		"position": "RB",
 		"team": "DEN",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 63
-	},
-	{
-		"first": "Tanner",
-		"last": "Taula",
-		"position": "TE",
-		"team": "TB",
 		"age": 24,
-		"years_exp": 0,
-		"search_rank": 317
+		"years_exp": 3,
+		"search_rank": 91
 	},
 	{
 		"first": "Dan",
@@ -153,22 +144,40 @@ var playersData = [
 		"search_rank": 402
 	},
 	{
+		"first": "Cole",
+		"last": "Fotheringham",
+		"position": "TE",
+		"team": "LV",
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 455
+	},
+	{
 		"first": "AJ",
 		"last": "Dillon",
 		"position": "RB",
 		"team": "GB",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 82
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 247
+	},
+	{
+		"first": "Drake",
+		"last": "Maye",
+		"position": "QB",
+		"team": "NE",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 103
 	},
 	{
 		"first": "Jonathan",
 		"last": "Taylor",
 		"position": "RB",
 		"team": "IND",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 36
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 13
 	},
 	{
 		"first": "Pooka",
@@ -183,28 +192,19 @@ var playersData = [
 		"first": "J.K.",
 		"last": "Dobbins",
 		"position": "RB",
-		"team": "BAL",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 50
+		"team": "LAC",
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 144
 	},
 	{
 		"first": "Ashton",
 		"last": "Dulin",
 		"position": "WR",
 		"team": "IND",
-		"age": 26,
-		"years_exp": 4,
+		"age": 27,
+		"years_exp": 5,
 		"search_rank": 363
-	},
-	{
-		"first": "Nelson",
-		"last": "Agholor",
-		"position": "WR",
-		"team": "BAL",
-		"age": 30,
-		"years_exp": 8,
-		"search_rank": 423
 	},
 	{
 		"first": "Michael",
@@ -229,26 +229,26 @@ var playersData = [
 		"last": "Hall",
 		"position": "RB",
 		"team": "NYJ",
-		"age": 22,
-		"years_exp": 1,
-		"search_rank": 35
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 7
 	},
 	{
 		"first": "DK",
 		"last": "Metcalf",
 		"position": "WR",
 		"team": "SEA",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 33
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 45
 	},
 	{
 		"first": "Kazmeir",
 		"last": "Allen",
 		"position": "WR",
 		"team": "WAS",
-		"age": 23,
-		"years_exp": 0,
+		"age": 24,
+		"years_exp": 1,
 		"search_rank": 346
 	},
 	{
@@ -261,13 +261,40 @@ var playersData = [
 		"search_rank": 433
 	},
 	{
+		"first": "Jermaine",
+		"last": "Burton",
+		"position": "WR",
+		"team": "CIN",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 187
+	},
+	{
+		"first": "Tucker",
+		"last": "Fisk",
+		"position": "TE",
+		"team": "",
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 451
+	},
+	{
 		"first": "Juwan",
 		"last": "Johnson",
 		"position": "TE",
 		"team": "NO",
 		"age": 27,
-		"years_exp": 3,
-		"search_rank": 191
+		"years_exp": 4,
+		"search_rank": 202
+	},
+	{
+		"first": "Ray",
+		"last": "Davis",
+		"position": "RB",
+		"team": "BUF",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 179
 	},
 	{
 		"first": "DeAndre",
@@ -284,8 +311,8 @@ var playersData = [
 		"position": "WR",
 		"team": "IND",
 		"age": 26,
-		"years_exp": 3,
-		"search_rank": 69
+		"years_exp": 4,
+		"search_rank": 33
 	},
 	{
 		"first": "Kyler",
@@ -293,8 +320,8 @@ var playersData = [
 		"position": "QB",
 		"team": "ARI",
 		"age": 26,
-		"years_exp": 4,
-		"search_rank": 196
+		"years_exp": 5,
+		"search_rank": 37
 	},
 	{
 		"first": "David",
@@ -302,7 +329,7 @@ var playersData = [
 		"position": "TE",
 		"team": "CLE",
 		"age": 27,
-		"years_exp": 6,
+		"years_exp": 7,
 		"search_rank": 86
 	},
 	{
@@ -310,45 +337,54 @@ var playersData = [
 		"last": "Addison",
 		"position": "WR",
 		"team": "MIN",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 64
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 71
 	},
 	{
-		"first": "Justin",
-		"last": "Watson",
+		"first": "Ja'Lynn",
+		"last": "Polk",
 		"position": "WR",
-		"team": "KC",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 283
+		"team": "NE",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 158
 	},
 	{
 		"first": "Dalvin",
 		"last": "Cook",
 		"position": "RB",
-		"team": "NYJ",
+		"team": "",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 68
+		"years_exp": 7,
+		"search_rank": 256
 	},
 	{
 		"first": "Jalen",
 		"last": "Cropper",
 		"position": "WR",
 		"team": "DAL",
-		"age": 22,
-		"years_exp": 0,
+		"age": 23,
+		"years_exp": 1,
 		"search_rank": 417
 	},
 	{
 		"first": "Trevon",
 		"last": "Wesco",
 		"position": "TE",
-		"team": "TEN",
+		"team": "",
 		"age": 28,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 340
+	},
+	{
+		"first": "Jaylen",
+		"last": "Wright",
+		"position": "RB",
+		"team": "MIA",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 136
 	},
 	{
 		"first": "Dalton",
@@ -356,8 +392,8 @@ var playersData = [
 		"position": "TE",
 		"team": "HOU",
 		"age": 27,
-		"years_exp": 5,
-		"search_rank": 113
+		"years_exp": 6,
+		"search_rank": 108
 	},
 	{
 		"first": "Donte",
@@ -372,55 +408,64 @@ var playersData = [
 		"first": "Malik",
 		"last": "Cunningham",
 		"position": "QB",
-		"team": "NE",
+		"team": "BAL",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 328
+		"years_exp": 1,
+		"search_rank": 316
 	},
 	{
 		"first": "Rakim",
 		"last": "Jarrett",
 		"position": "WR",
 		"team": "TB",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 404
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 472
 	},
 	{
 		"first": "Tom",
 		"last": "Kennedy",
 		"position": "WR",
-		"team": "",
+		"team": "DET",
 		"age": 27,
-		"years_exp": 4,
-		"search_rank": 393
+		"years_exp": 5,
+		"search_rank": 317
 	},
 	{
 		"first": "Zach",
 		"last": "Pascal",
 		"position": "WR",
 		"team": "ARI",
-		"age": 28,
-		"years_exp": 6,
+		"age": 29,
+		"years_exp": 7,
 		"search_rank": 378
+	},
+	{
+		"first": "Jayden",
+		"last": "Daniels",
+		"position": "QB",
+		"team": "WAS",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 55
+	},
+	{
+		"first": "Brock",
+		"last": "Bowers",
+		"position": "TE",
+		"team": "LV",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 60
 	},
 	{
 		"first": "Dalton",
 		"last": "Keene",
 		"position": "TE",
 		"team": "HOU",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 335
-	},
-	{
-		"first": "Irv",
-		"last": "Smith",
-		"position": "TE",
-		"team": "CIN",
 		"age": 25,
 		"years_exp": 4,
-		"search_rank": 221
+		"search_rank": 335
 	},
 	{
 		"first": "Devonta",
@@ -435,10 +480,10 @@ var playersData = [
 		"first": "Blaine",
 		"last": "Gabbert",
 		"position": "QB",
-		"team": "KC",
+		"team": "",
 		"age": 34,
-		"years_exp": 12,
-		"search_rank": 293
+		"years_exp": 13,
+		"search_rank": 451
 	},
 	{
 		"first": "Deuce",
@@ -446,35 +491,17 @@ var playersData = [
 		"position": "RB",
 		"team": "DAL",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 159
-	},
-	{
-		"first": "Mac",
-		"last": "Jones",
-		"position": "QB",
-		"team": "NE",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 245
-	},
-	{
-		"first": "Johnny",
-		"last": "Mundt",
-		"position": "TE",
-		"team": "MIN",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 413
+		"years_exp": 1,
+		"search_rank": 295
 	},
 	{
 		"first": "Parris",
 		"last": "Campbell",
 		"position": "WR",
-		"team": "NYG",
+		"team": "PHI",
 		"age": 26,
-		"years_exp": 4,
-		"search_rank": 242
+		"years_exp": 5,
+		"search_rank": 499
 	},
 	{
 		"first": "Adrian",
@@ -482,7 +509,7 @@ var playersData = [
 		"position": "QB",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 335
 	},
 	{
@@ -499,18 +526,18 @@ var playersData = [
 		"last": "Charbonnet",
 		"position": "RB",
 		"team": "SEA",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 99
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 132
 	},
 	{
 		"first": "Josh",
 		"last": "Jacobs",
 		"position": "RB",
-		"team": "LV",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 17
+		"team": "GB",
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 26
 	},
 	{
 		"first": "Jadon",
@@ -518,16 +545,16 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 22,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 383
 	},
 	{
 		"first": "Marquez",
 		"last": "Callaway",
 		"position": "WR",
-		"team": "",
-		"age": 25,
-		"years_exp": 3,
+		"team": "PIT",
+		"age": 26,
+		"years_exp": 4,
 		"search_rank": 316
 	},
 	{
@@ -554,71 +581,44 @@ var playersData = [
 		"position": "TE",
 		"team": "",
 		"age": 26,
-		"years_exp": 3,
+		"years_exp": 4,
 		"search_rank": 468
-	},
-	{
-		"first": "Dwayne",
-		"last": "Washington",
-		"position": "RB",
-		"team": "DEN",
-		"age": 29,
-		"years_exp": 7,
-		"search_rank": 359
-	},
-	{
-		"first": "Bryce",
-		"last": "Ford-Wheaton",
-		"position": "WR",
-		"team": "NYG",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 477
-	},
-	{
-		"first": "Drew",
-		"last": "Brees",
-		"position": "QB",
-		"team": "",
-		"age": 42,
-		"years_exp": 20,
-		"search_rank": 76
 	},
 	{
 		"first": "Brandon",
 		"last": "McManus",
 		"position": "K",
-		"team": "JAX",
+		"team": "",
 		"age": 32,
-		"years_exp": 10,
-		"search_rank": 157
+		"years_exp": 11,
+		"search_rank": 204
 	},
 	{
-		"first": "Marquez",
-		"last": "Valdes-Scantling",
-		"position": "WR",
-		"team": "KC",
-		"age": 29,
-		"years_exp": 5,
-		"search_rank": 211
+		"first": "Blake",
+		"last": "Watson",
+		"position": "RB",
+		"team": "DEN",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 443
 	},
 	{
 		"first": "Brett",
 		"last": "Maher",
 		"position": "K",
 		"team": "",
-		"age": 33,
-		"years_exp": 10,
-		"search_rank": 382
+		"age": 34,
+		"years_exp": 11,
+		"search_rank": 368
 	},
 	{
 		"first": "Tyson",
 		"last": "Bagent",
 		"position": "QB",
 		"team": "CHI",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 450
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 368
 	},
 	{
 		"first": "Zach",
@@ -626,7 +626,7 @@ var playersData = [
 		"position": "TE",
 		"team": "BUF",
 		"age": 25,
-		"years_exp": 2,
+		"years_exp": 3,
 		"search_rank": 342
 	},
 	{
@@ -634,9 +634,9 @@ var playersData = [
 		"last": "Sanders",
 		"position": "RB",
 		"team": "CAR",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 50
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 285
 	},
 	{
 		"first": "Chigoziem",
@@ -644,44 +644,26 @@ var playersData = [
 		"position": "TE",
 		"team": "TEN",
 		"age": 24,
-		"years_exp": 1,
-		"search_rank": 143
+		"years_exp": 2,
+		"search_rank": 191
 	},
 	{
-		"first": "Stephen",
-		"last": "Carlson",
-		"position": "TE",
-		"team": "CHI",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 352
-	},
-	{
-		"first": "Elijah",
-		"last": "Dotson",
-		"position": "RB",
-		"team": "LAC",
+		"first": "Jalen",
+		"last": "Brooks",
+		"position": "WR",
+		"team": "DAL",
 		"age": 24,
-		"years_exp": 0,
-		"search_rank": 446
+		"years_exp": 1,
+		"search_rank": 481
 	},
 	{
 		"first": "DeAndre",
 		"last": "Hopkins",
 		"position": "WR",
 		"team": "TEN",
-		"age": 31,
-		"years_exp": 10,
-		"search_rank": 48
-	},
-	{
-		"first": "Darren",
-		"last": "Waller",
-		"position": "TE",
-		"team": "NYG",
-		"age": 31,
-		"years_exp": 8,
-		"search_rank": 52
+		"age": 32,
+		"years_exp": 11,
+		"search_rank": 88
 	},
 	{
 		"first": "Brandon",
@@ -706,9 +688,9 @@ var playersData = [
 		"last": "Carlson",
 		"position": "K",
 		"team": "LV",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 124
+		"age": 29,
+		"years_exp": 6,
+		"search_rank": 213
 	},
 	{
 		"first": "Zamir",
@@ -716,8 +698,8 @@ var playersData = [
 		"position": "RB",
 		"team": "LV",
 		"age": 24,
-		"years_exp": 1,
-		"search_rank": 211
+		"years_exp": 2,
+		"search_rank": 86
 	},
 	{
 		"first": "Deshaun",
@@ -725,8 +707,8 @@ var playersData = [
 		"position": "QB",
 		"team": "CLE",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 57
+		"years_exp": 7,
+		"search_rank": 131
 	},
 	{
 		"first": "Cameron",
@@ -742,26 +724,26 @@ var playersData = [
 		"last": "Williams",
 		"position": "RB",
 		"team": "NO",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 101
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 300
 	},
 	{
 		"first": "Darius",
 		"last": "Slayton",
 		"position": "WR",
 		"team": "NYG",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 431
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 254
 	},
 	{
 		"first": "Jordan",
 		"last": "Mims",
 		"position": "RB",
 		"team": "NO",
-		"age": 24,
-		"years_exp": 0,
+		"age": 25,
+		"years_exp": 1,
 		"search_rank": 420
 	},
 	{
@@ -770,26 +752,26 @@ var playersData = [
 		"position": "TE",
 		"team": "KC",
 		"age": 34,
-		"years_exp": 10,
-		"search_rank": 5
+		"years_exp": 11,
+		"search_rank": 27
 	},
 	{
 		"first": "Leonard",
 		"last": "Fournette",
 		"position": "RB",
-		"team": "BUF",
+		"team": "",
 		"age": 28,
-		"years_exp": 6,
+		"years_exp": 7,
 		"search_rank": 235
 	},
 	{
 		"first": "Marcus",
 		"last": "Mariota",
 		"position": "QB",
-		"team": "PHI",
+		"team": "WAS",
 		"age": 30,
-		"years_exp": 8,
-		"search_rank": 317
+		"years_exp": 9,
+		"search_rank": 454
 	},
 	{
 		"first": "D'Eriq",
@@ -815,8 +797,8 @@ var playersData = [
 		"position": "WR",
 		"team": "HOU",
 		"age": 24,
-		"years_exp": 0,
-		"search_rank": 70
+		"years_exp": 1,
+		"search_rank": 51
 	},
 	{
 		"first": "Josh",
@@ -824,7 +806,7 @@ var playersData = [
 		"position": "TE",
 		"team": "JAX",
 		"age": 26,
-		"years_exp": 2,
+		"years_exp": 3,
 		"search_rank": 380
 	},
 	{
@@ -837,22 +819,22 @@ var playersData = [
 		"search_rank": 279
 	},
 	{
+		"first": "Greg",
+		"last": "Dortch",
+		"position": "WR",
+		"team": "ARI",
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 256
+	},
+	{
 		"first": "Israel",
 		"last": "Abanikanda",
 		"position": "RB",
 		"team": "NYJ",
 		"age": 21,
-		"years_exp": 0,
-		"search_rank": 242
-	},
-	{
-		"first": "Mason",
-		"last": "Rudolph",
-		"position": "QB",
-		"team": "PIT",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 464
+		"years_exp": 1,
+		"search_rank": 304
 	},
 	{
 		"first": "Tayon",
@@ -876,10 +858,10 @@ var playersData = [
 		"first": "Michael",
 		"last": "Thomas",
 		"position": "WR",
-		"team": "NO",
-		"age": 30,
-		"years_exp": 7,
-		"search_rank": 96
+		"team": "",
+		"age": 31,
+		"years_exp": 8,
+		"search_rank": 230
 	},
 	{
 		"first": "C.J.",
@@ -887,35 +869,44 @@ var playersData = [
 		"position": "QB",
 		"team": "HOU",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 35
+		"years_exp": 1,
+		"search_rank": 6
+	},
+	{
+		"first": "Michael",
+		"last": "Badgley",
+		"position": "K",
+		"team": "DET",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 373
 	},
 	{
 		"first": "Jacoby",
 		"last": "Brissett",
 		"position": "QB",
-		"team": "WAS",
-		"age": 30,
-		"years_exp": 7,
-		"search_rank": 481
+		"team": "NE",
+		"age": 31,
+		"years_exp": 8,
+		"search_rank": 383
 	},
 	{
 		"first": "Jason",
 		"last": "Myers",
 		"position": "K",
 		"team": "SEA",
-		"age": 32,
-		"years_exp": 8,
-		"search_rank": 151
+		"age": 33,
+		"years_exp": 9,
+		"search_rank": 266
 	},
 	{
-		"first": "Luke",
-		"last": "Schoonmaker",
-		"position": "TE",
-		"team": "DAL",
+		"first": "Emanuel",
+		"last": "Wilson",
+		"position": "RB",
+		"team": "GB",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 376
+		"years_exp": 1,
+		"search_rank": 457
 	},
 	{
 		"first": "Kyle",
@@ -927,21 +918,21 @@ var playersData = [
 		"search_rank": 334
 	},
 	{
-		"first": "Justyn",
-		"last": "Ross",
+		"first": "Grant",
+		"last": "DuBose",
 		"position": "WR",
-		"team": "KC",
+		"team": "GB",
 		"age": 23,
 		"years_exp": 1,
-		"search_rank": 186
+		"search_rank": 466
 	},
 	{
 		"first": "Jake",
 		"last": "Fromm",
 		"position": "QB",
-		"team": "WAS",
+		"team": "",
 		"age": 25,
-		"years_exp": 3,
+		"years_exp": 4,
 		"search_rank": 406
 	},
 	{
@@ -976,27 +967,27 @@ var playersData = [
 		"last": "Gano",
 		"position": "K",
 		"team": "NYG",
-		"age": 36,
-		"years_exp": 14,
-		"search_rank": 161
+		"age": 37,
+		"years_exp": 15,
+		"search_rank": 354
 	},
 	{
 		"first": "Derrick",
 		"last": "Gore",
 		"position": "RB",
-		"team": "WAS",
-		"age": 28,
-		"years_exp": 4,
+		"team": "",
+		"age": 29,
+		"years_exp": 5,
 		"search_rank": 444
 	},
 	{
-		"first": "Brandon",
-		"last": "Johnson",
+		"first": "Nikko",
+		"last": "Remigio",
 		"position": "WR",
-		"team": "DEN",
-		"age": 25,
+		"team": "KC",
+		"age": 24,
 		"years_exp": 1,
-		"search_rank": 396
+		"search_rank": 314
 	},
 	{
 		"first": "Alvin",
@@ -1004,8 +995,8 @@ var playersData = [
 		"position": "RB",
 		"team": "NO",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 58
+		"years_exp": 7,
+		"search_rank": 53
 	},
 	{
 		"first": "John",
@@ -1030,45 +1021,45 @@ var playersData = [
 		"last": "Reagor",
 		"position": "WR",
 		"team": "NE",
-		"age": 24,
-		"years_exp": 3,
+		"age": 25,
+		"years_exp": 4,
 		"search_rank": 423
 	},
 	{
-		"first": "Tyler",
-		"last": "Scott",
-		"position": "WR",
+		"first": "Caleb",
+		"last": "Williams",
+		"position": "QB",
 		"team": "CHI",
 		"age": 22,
 		"years_exp": 0,
-		"search_rank": 490
+		"search_rank": 23
 	},
 	{
 		"first": "Sam",
 		"last": "Howell",
 		"position": "QB",
-		"team": "WAS",
+		"team": "SEA",
 		"age": 23,
-		"years_exp": 1,
-		"search_rank": 70
+		"years_exp": 2,
+		"search_rank": 312
 	},
 	{
 		"first": "Ka'imi",
 		"last": "Fairbairn",
 		"position": "K",
 		"team": "HOU",
-		"age": 29,
-		"years_exp": 7,
-		"search_rank": 369
+		"age": 30,
+		"years_exp": 8,
+		"search_rank": 257
 	},
 	{
 		"first": "Roschon",
 		"last": "Johnson",
 		"position": "RB",
 		"team": "CHI",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 173
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 187
 	},
 	{
 		"first": "A.T.",
@@ -1076,35 +1067,44 @@ var playersData = [
 		"position": "WR",
 		"team": "NO",
 		"age": 24,
+		"years_exp": 1,
+		"search_rank": 277
+	},
+	{
+		"first": "Ricky",
+		"last": "Person",
+		"position": "RB",
+		"team": "SEA",
+		"age": 24,
 		"years_exp": 0,
-		"search_rank": 431
+		"search_rank": 460
+	},
+	{
+		"first": "Malik",
+		"last": "Davis",
+		"position": "RB",
+		"team": "DAL",
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 438
 	},
 	{
 		"first": "Tyler",
 		"last": "Bass",
 		"position": "K",
 		"team": "BUF",
-		"age": 26,
-		"years_exp": 3,
-		"search_rank": 128
+		"age": 27,
+		"years_exp": 4,
+		"search_rank": 170
 	},
 	{
 		"first": "Cairo",
 		"last": "Santos",
 		"position": "K",
 		"team": "CHI",
-		"age": 31,
-		"years_exp": 9,
+		"age": 32,
+		"years_exp": 10,
 		"search_rank": 449
-	},
-	{
-		"first": "Ben",
-		"last": "Roethlisberger",
-		"position": "QB",
-		"team": "PIT",
-		"age": 39,
-		"years_exp": 18,
-		"search_rank": 376
 	},
 	{
 		"first": "Michael",
@@ -1112,35 +1112,26 @@ var playersData = [
 		"position": "TE",
 		"team": "LV",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 173
+		"years_exp": 1,
+		"search_rank": 203
 	},
 	{
-		"first": "Raheem",
-		"last": "Blackshear",
-		"position": "RB",
-		"team": "CAR",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 465
-	},
-	{
-		"first": "Lance",
-		"last": "McCutcheon",
-		"position": "WR",
-		"team": "NYJ",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 326
+		"first": "Drew",
+		"last": "Plitt",
+		"position": "QB",
+		"team": "",
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 437
 	},
 	{
 		"first": "Najee",
 		"last": "Harris",
 		"position": "RB",
 		"team": "PIT",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 23
+		"age": 26,
+		"years_exp": 3,
+		"search_rank": 82
 	},
 	{
 		"first": "Kevin",
@@ -1152,13 +1143,22 @@ var playersData = [
 		"search_rank": 262
 	},
 	{
+		"first": "Bub",
+		"last": "Means",
+		"position": "WR",
+		"team": "NO",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 474
+	},
+	{
 		"first": "Dare",
 		"last": "Ogunbowale",
 		"position": "RB",
 		"team": "HOU",
-		"age": 29,
-		"years_exp": 6,
-		"search_rank": 497
+		"age": 30,
+		"years_exp": 7,
+		"search_rank": 443
 	},
 	{
 		"first": "T.J.",
@@ -1182,73 +1182,73 @@ var playersData = [
 		"first": "Gerald",
 		"last": "Everett",
 		"position": "TE",
-		"team": "LAC",
-		"age": 29,
-		"years_exp": 6,
-		"search_rank": 173
+		"team": "CHI",
+		"age": 30,
+		"years_exp": 7,
+		"search_rank": 299
+	},
+	{
+		"first": "Sterling",
+		"last": "Shepard",
+		"position": "WR",
+		"team": "TB",
+		"age": 31,
+		"years_exp": 8,
+		"search_rank": 440
 	},
 	{
 		"first": "Kareem",
 		"last": "Hunt",
 		"position": "RB",
-		"team": "CLE",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 166
-	},
-	{
-		"first": "Ray-Ray",
-		"last": "McCloud",
-		"position": "WR",
-		"team": "SF",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 371
-	},
-	{
-		"first": "Harrison",
-		"last": "Bryant",
-		"position": "TE",
-		"team": "CLE",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 442
-	},
-	{
-		"first": "Jaydon",
-		"last": "Mickens",
-		"position": "WR",
 		"team": "",
-		"age": 29,
+		"age": 28,
 		"years_exp": 7,
-		"search_rank": 296
+		"search_rank": 249
+	},
+	{
+		"first": "Joshua",
+		"last": "Karty",
+		"position": "K",
+		"team": "LAR",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 357
 	},
 	{
 		"first": "Chuba",
 		"last": "Hubbard",
 		"position": "RB",
 		"team": "CAR",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 97
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 137
 	},
 	{
-		"first": "Derek",
-		"last": "Wright",
-		"position": "WR",
-		"team": "CAR",
-		"age": 25,
-		"years_exp": 1,
-		"search_rank": 249
+		"first": "Zonovan",
+		"last": "Knight",
+		"position": "RB",
+		"team": "DET",
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 388
+	},
+	{
+		"first": "Jody",
+		"last": "Fortson",
+		"position": "TE",
+		"team": "MIA",
+		"age": 28,
+		"years_exp": 5,
+		"search_rank": 456
 	},
 	{
 		"first": "Trey",
 		"last": "Palmer",
 		"position": "WR",
 		"team": "TB",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 434
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 279
 	},
 	{
 		"first": "Jalin",
@@ -1256,8 +1256,8 @@ var playersData = [
 		"position": "WR",
 		"team": "NYG",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 163
+		"years_exp": 1,
+		"search_rank": 250
 	},
 	{
 		"first": "Courtland",
@@ -1265,8 +1265,8 @@ var playersData = [
 		"position": "WR",
 		"team": "DEN",
 		"age": 28,
-		"years_exp": 5,
-		"search_rank": 109
+		"years_exp": 6,
+		"search_rank": 117
 	},
 	{
 		"first": "Garett",
@@ -1274,35 +1274,35 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
-		"search_rank": 370
-	},
-	{
-		"first": "Skyy",
-		"last": "Moore",
-		"position": "WR",
-		"team": "KC",
-		"age": 23,
 		"years_exp": 1,
-		"search_rank": 125
+		"search_rank": 370
 	},
 	{
 		"first": "Joey",
 		"last": "Slye",
 		"position": "K",
-		"team": "WAS",
-		"age": 27,
-		"years_exp": 4,
+		"team": "NE",
+		"age": 28,
+		"years_exp": 5,
 		"search_rank": 392
 	},
 	{
 		"first": "John Parker",
 		"last": "Romo",
 		"position": "K",
-		"team": "",
+		"team": "MIN",
 		"age": 26,
 		"years_exp": 1,
-		"search_rank": 409
+		"search_rank": 349
+	},
+	{
+		"first": "Carter",
+		"last": "Bradley",
+		"position": "QB",
+		"team": "LV",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 391
 	},
 	{
 		"first": "Henry",
@@ -1314,12 +1314,21 @@ var playersData = [
 		"search_rank": 124
 	},
 	{
-		"first": "Andrew",
+		"first": "Dennis",
+		"last": "Houston",
+		"position": "WR",
+		"team": "NYG",
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 449
+	},
+	{
+		"first": "Drew",
 		"last": "Ogletree",
 		"position": "TE",
 		"team": "IND",
 		"age": 25,
-		"years_exp": 1,
+		"years_exp": 2,
 		"search_rank": 329
 	},
 	{
@@ -1328,26 +1337,17 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 25,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 440
 	},
 	{
 		"first": "Jeff",
 		"last": "Smith",
 		"position": "WR",
-		"team": "",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 426
-	},
-	{
-		"first": "Van",
-		"last": "Jefferson",
-		"position": "WR",
-		"team": "ATL",
+		"team": "ARI",
 		"age": 27,
-		"years_exp": 3,
-		"search_rank": 188
+		"years_exp": 5,
+		"search_rank": 426
 	},
 	{
 		"first": "Lucas",
@@ -1355,26 +1355,26 @@ var playersData = [
 		"position": "TE",
 		"team": "DEN",
 		"age": 25,
-		"years_exp": 1,
-		"search_rank": 343
+		"years_exp": 2,
+		"search_rank": 477
 	},
 	{
 		"first": "Wan'Dale",
 		"last": "Robinson",
 		"position": "WR",
 		"team": "NYG",
-		"age": 22,
-		"years_exp": 1,
-		"search_rank": 240
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 195
 	},
 	{
 		"first": "Jonnu",
 		"last": "Smith",
 		"position": "TE",
-		"team": "ATL",
+		"team": "MIA",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 95
+		"years_exp": 7,
+		"search_rank": 200
 	},
 	{
 		"first": "Josh",
@@ -1384,15 +1384,6 @@ var playersData = [
 		"age": 23,
 		"years_exp": 2,
 		"search_rank": 446
-	},
-	{
-		"first": "Zach",
-		"last": "Evans",
-		"position": "RB",
-		"team": "LAR",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 242
 	},
 	{
 		"first": "Chris",
@@ -1409,7 +1400,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 381
 	},
 	{
@@ -1417,9 +1408,9 @@ var playersData = [
 		"last": "Dulcich",
 		"position": "TE",
 		"team": "DEN",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 170
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 245
 	},
 	{
 		"first": "Zay",
@@ -1427,17 +1418,17 @@ var playersData = [
 		"position": "WR",
 		"team": "BAL",
 		"age": 23,
-		"years_exp": 0,
-		"search_rank": 97
+		"years_exp": 1,
+		"search_rank": 52
 	},
 	{
 		"first": "Brandon",
 		"last": "Aiyuk",
 		"position": "WR",
 		"team": "SF",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 65
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 20
 	},
 	{
 		"first": "Pokey",
@@ -1445,7 +1436,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 424
 	},
 	{
@@ -1454,8 +1445,17 @@ var playersData = [
 		"position": "WR",
 		"team": "IND",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 238
+		"years_exp": 1,
+		"search_rank": 135
+	},
+	{
+		"first": "Julio",
+		"last": "Jones",
+		"position": "WR",
+		"team": "",
+		"age": 35,
+		"years_exp": 13,
+		"search_rank": 418
 	},
 	{
 		"first": "Nick",
@@ -1463,8 +1463,8 @@ var playersData = [
 		"position": "K",
 		"team": "TEN",
 		"age": 39,
-		"years_exp": 16,
-		"search_rank": 226
+		"years_exp": 17,
+		"search_rank": 350
 	},
 	{
 		"first": "James",
@@ -1489,8 +1489,8 @@ var playersData = [
 		"last": "Green",
 		"position": "WR",
 		"team": "DET",
-		"age": 23,
-		"years_exp": 0,
+		"age": 24,
+		"years_exp": 1,
 		"search_rank": 336
 	},
 	{
@@ -1498,18 +1498,27 @@ var playersData = [
 		"last": "Allen",
 		"position": "QB",
 		"team": "BUF",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 7
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 2
+	},
+	{
+		"first": "Brenden",
+		"last": "Rice",
+		"position": "WR",
+		"team": "LAC",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 235
 	},
 	{
 		"first": "Chris",
 		"last": "Olave",
 		"position": "WR",
 		"team": "NO",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 24
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 19
 	},
 	{
 		"first": "Bryce",
@@ -1521,12 +1530,21 @@ var playersData = [
 		"search_rank": 127
 	},
 	{
+		"first": "Tahj",
+		"last": "Washington",
+		"position": "WR",
+		"team": "MIA",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 472
+	},
+	{
 		"first": "Jamal",
 		"last": "Agnew",
 		"position": "WR",
-		"team": "JAX",
-		"age": 28,
-		"years_exp": 6,
+		"team": "",
+		"age": 29,
+		"years_exp": 7,
 		"search_rank": 414
 	},
 	{
@@ -1539,13 +1557,22 @@ var playersData = [
 		"search_rank": 455
 	},
 	{
-		"first": "Cam",
-		"last": "Akers",
-		"position": "RB",
-		"team": "MIN",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 54
+		"first": "La'Michael",
+		"last": "Pettway",
+		"position": "TE",
+		"team": "NE",
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 398
+	},
+	{
+		"first": "Adonai",
+		"last": "Mitchell",
+		"position": "WR",
+		"team": "IND",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 114
 	},
 	{
 		"first": "Chad",
@@ -1561,8 +1588,8 @@ var playersData = [
 		"last": "Wells",
 		"position": "TE",
 		"team": "TB",
-		"age": 28,
-		"years_exp": 5,
+		"age": 29,
+		"years_exp": 6,
 		"search_rank": 362
 	},
 	{
@@ -1570,8 +1597,8 @@ var playersData = [
 		"last": "Montgomery",
 		"position": "WR",
 		"team": "IND",
-		"age": 26,
-		"years_exp": 4,
+		"age": 27,
+		"years_exp": 5,
 		"search_rank": 274
 	},
 	{
@@ -1589,8 +1616,8 @@ var playersData = [
 		"position": "WR",
 		"team": "LAC",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 103
+		"years_exp": 1,
+		"search_rank": 156
 	},
 	{
 		"first": "Dominik",
@@ -1614,9 +1641,9 @@ var playersData = [
 		"first": "Mohamed",
 		"last": "Ibrahim",
 		"position": "RB",
-		"team": "DET",
+		"team": "",
 		"age": 25,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 474
 	},
 	{
@@ -1629,12 +1656,30 @@ var playersData = [
 		"search_rank": 304
 	},
 	{
+		"first": "Durham",
+		"last": "Smythe",
+		"position": "TE",
+		"team": "MIA",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 493
+	},
+	{
+		"first": "Tanner",
+		"last": "McKee",
+		"position": "QB",
+		"team": "PHI",
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 370
+	},
+	{
 		"first": "Myles",
 		"last": "Gaskin",
 		"position": "RB",
-		"team": "LAR",
-		"age": 26,
-		"years_exp": 4,
+		"team": "MIN",
+		"age": 27,
+		"years_exp": 5,
 		"search_rank": 337
 	},
 	{
@@ -1647,30 +1692,21 @@ var playersData = [
 		"search_rank": 219
 	},
 	{
-		"first": "Michael",
-		"last": "Woods",
-		"position": "WR",
-		"team": "CLE",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 341
-	},
-	{
-		"first": "Matt",
-		"last": "Bushman",
+		"first": "Ja'Tavion",
+		"last": "Sanders",
 		"position": "TE",
-		"team": "KC",
-		"age": 28,
-		"years_exp": 2,
-		"search_rank": 295
+		"team": "CAR",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 197
 	},
 	{
 		"first": "Devon",
 		"last": "Allen",
 		"position": "WR",
-		"team": "PHI",
-		"age": 28,
-		"years_exp": 1,
+		"team": "",
+		"age": 29,
+		"years_exp": 2,
 		"search_rank": 490
 	},
 	{
@@ -1679,17 +1715,8 @@ var playersData = [
 		"position": "WR",
 		"team": "ARI",
 		"age": 25,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 385
-	},
-	{
-		"first": "Tyrell",
-		"last": "Shavers",
-		"position": "WR",
-		"team": "BUF",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 371
 	},
 	{
 		"first": "Ryan",
@@ -1705,18 +1732,27 @@ var playersData = [
 		"last": "Jefferson",
 		"position": "WR",
 		"team": "MIN",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 1
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 4
 	},
 	{
 		"first": "Austin",
 		"last": "Hooper",
 		"position": "TE",
-		"team": "LV",
+		"team": "NE",
 		"age": 29,
-		"years_exp": 7,
-		"search_rank": 495
+		"years_exp": 8,
+		"search_rank": 411
+	},
+	{
+		"first": "Cornelius",
+		"last": "Johnson",
+		"position": "WR",
+		"team": "LAC",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 482
 	},
 	{
 		"first": "Mark",
@@ -1724,26 +1760,26 @@ var playersData = [
 		"position": "TE",
 		"team": "BAL",
 		"age": 28,
-		"years_exp": 5,
-		"search_rank": 26
+		"years_exp": 6,
+		"search_rank": 47
 	},
 	{
 		"first": "Chase",
 		"last": "Brown",
 		"position": "RB",
 		"team": "CIN",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 194
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 123
 	},
 	{
 		"first": "Trent",
 		"last": "Sherfield",
 		"position": "WR",
-		"team": "BUF",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 478
+		"team": "MIN",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 460
 	},
 	{
 		"first": "Jordan",
@@ -1759,9 +1795,27 @@ var playersData = [
 		"last": "Fant",
 		"position": "TE",
 		"team": "SEA",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 248
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 228
+	},
+	{
+		"first": "Frank",
+		"last": "Gore",
+		"position": "RB",
+		"team": "BUF",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 294
+	},
+	{
+		"first": "Keon",
+		"last": "Coleman",
+		"position": "WR",
+		"team": "BUF",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 97
 	},
 	{
 		"first": "Dede",
@@ -1771,6 +1825,15 @@ var playersData = [
 		"age": 29,
 		"years_exp": 5,
 		"search_rank": 437
+	},
+	{
+		"first": "Xavier",
+		"last": "Legette",
+		"position": "WR",
+		"team": "CAR",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 133
 	},
 	{
 		"first": "Chris",
@@ -1785,46 +1848,46 @@ var playersData = [
 		"first": "Kevin",
 		"last": "Rader",
 		"position": "TE",
-		"team": "TEN",
-		"age": 28,
-		"years_exp": 5,
+		"team": "",
+		"age": 29,
+		"years_exp": 6,
 		"search_rank": 354
 	},
 	{
 		"first": "Kellen",
 		"last": "Mond",
 		"position": "QB",
-		"team": "IND",
+		"team": "",
 		"age": 24,
-		"years_exp": 2,
+		"years_exp": 3,
 		"search_rank": 385
-	},
-	{
-		"first": "Mike",
-		"last": "White",
-		"position": "QB",
-		"team": "MIA",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 483
 	},
 	{
 		"first": "Gardner",
 		"last": "Minshew",
 		"position": "QB",
-		"team": "IND",
-		"age": 27,
-		"years_exp": 4,
-		"search_rank": 450
+		"team": "LV",
+		"age": 28,
+		"years_exp": 5,
+		"search_rank": 254
 	},
 	{
 		"first": "Ty",
 		"last": "Chandler",
 		"position": "RB",
 		"team": "MIN",
-		"age": 25,
-		"years_exp": 1,
-		"search_rank": 209
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 148
+	},
+	{
+		"first": "Spencer",
+		"last": "Rattler",
+		"position": "QB",
+		"team": "NO",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 305
 	},
 	{
 		"first": "Isaiah",
@@ -1841,17 +1904,26 @@ var playersData = [
 		"position": "RB",
 		"team": "PIT",
 		"age": 25,
-		"years_exp": 1,
-		"search_rank": 141
+		"years_exp": 2,
+		"search_rank": 98
+	},
+	{
+		"first": "Sione",
+		"last": "Vaki",
+		"position": "RB",
+		"team": "DET",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 461
 	},
 	{
 		"first": "DJ",
 		"last": "Chark",
 		"position": "WR",
-		"team": "CAR",
+		"team": "LAC",
 		"age": 27,
-		"years_exp": 5,
-		"search_rank": 198
+		"years_exp": 6,
+		"search_rank": 247
 	},
 	{
 		"first": "Mike",
@@ -1867,27 +1939,9 @@ var playersData = [
 		"last": "Willis",
 		"position": "QB",
 		"team": "TEN",
-		"age": 24,
-		"years_exp": 1,
+		"age": 25,
+		"years_exp": 2,
 		"search_rank": 401
-	},
-	{
-		"first": "Josh",
-		"last": "Whyle",
-		"position": "TE",
-		"team": "TEN",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 432
-	},
-	{
-		"first": "Philip",
-		"last": "Rivers",
-		"position": "QB",
-		"team": "",
-		"age": 40,
-		"years_exp": 18,
-		"search_rank": 150
 	},
 	{
 		"first": "Larry",
@@ -1899,22 +1953,31 @@ var playersData = [
 		"search_rank": 165
 	},
 	{
+		"first": "Javon",
+		"last": "Baker",
+		"position": "WR",
+		"team": "NE",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 226
+	},
+	{
 		"first": "Pat",
 		"last": "Freiermuth",
 		"position": "TE",
 		"team": "PIT",
 		"age": 25,
-		"years_exp": 2,
-		"search_rank": 85
+		"years_exp": 3,
+		"search_rank": 127
 	},
 	{
 		"first": "Carson",
 		"last": "Wentz",
 		"position": "QB",
-		"team": "",
-		"age": 30,
-		"years_exp": 7,
-		"search_rank": 310
+		"team": "KC",
+		"age": 31,
+		"years_exp": 8,
+		"search_rank": 402
 	},
 	{
 		"first": "Jose",
@@ -1926,13 +1989,22 @@ var playersData = [
 		"search_rank": 473
 	},
 	{
+		"first": "Hassan",
+		"last": "Haskins",
+		"position": "RB",
+		"team": "TEN",
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 328
+	},
+	{
 		"first": "Romeo",
 		"last": "Doubs",
 		"position": "WR",
 		"team": "GB",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 152
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 117
 	},
 	{
 		"first": "Kyren",
@@ -1940,8 +2012,8 @@ var playersData = [
 		"position": "RB",
 		"team": "LAR",
 		"age": 23,
-		"years_exp": 1,
-		"search_rank": 40
+		"years_exp": 2,
+		"search_rank": 15
 	},
 	{
 		"first": "Tarik",
@@ -1949,26 +2021,26 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 25,
-		"years_exp": 2,
+		"years_exp": 3,
 		"search_rank": 479
 	},
 	{
 		"first": "Damien",
 		"last": "Harris",
 		"position": "RB",
-		"team": "BUF",
-		"age": 26,
-		"years_exp": 4,
+		"team": "",
+		"age": 27,
+		"years_exp": 5,
 		"search_rank": 126
 	},
 	{
 		"first": "Isaiah",
 		"last": "McKenzie",
 		"position": "WR",
-		"team": "IND",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 480
+		"team": "NYG",
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 478
 	},
 	{
 		"first": "Emmanuel",
@@ -1993,9 +2065,9 @@ var playersData = [
 		"last": "Stevenson",
 		"position": "RB",
 		"team": "NE",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 30
+		"age": 26,
+		"years_exp": 3,
+		"search_rank": 71
 	},
 	{
 		"first": "Jeff",
@@ -2012,17 +2084,17 @@ var playersData = [
 		"position": "WR",
 		"team": "LAC",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 422
+		"years_exp": 3,
+		"search_rank": 150
 	},
 	{
 		"first": "Kendre",
 		"last": "Miller",
 		"position": "RB",
 		"team": "NO",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 156
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 146
 	},
 	{
 		"first": "Seth",
@@ -2037,27 +2109,27 @@ var playersData = [
 		"first": "DeVante",
 		"last": "Parker",
 		"position": "WR",
-		"team": "NE",
-		"age": 30,
-		"years_exp": 8,
-		"search_rank": 232
+		"team": "",
+		"age": 31,
+		"years_exp": 9,
+		"search_rank": 474
 	},
 	{
 		"first": "Joe",
 		"last": "Mixon",
 		"position": "RB",
-		"team": "CIN",
+		"team": "HOU",
 		"age": 27,
-		"years_exp": 6,
-		"search_rank": 29
+		"years_exp": 7,
+		"search_rank": 47
 	},
 	{
 		"first": "Tyron",
 		"last": "Billy-Johnson",
 		"position": "WR",
 		"team": "DAL",
-		"age": 27,
-		"years_exp": 4,
+		"age": 28,
+		"years_exp": 5,
 		"search_rank": 458
 	},
 	{
@@ -2066,35 +2138,26 @@ var playersData = [
 		"position": "RB",
 		"team": "JAX",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 131
+		"years_exp": 1,
+		"search_rank": 234
 	},
 	{
 		"first": "David",
 		"last": "Blough",
 		"position": "QB",
-		"team": "DET",
+		"team": "",
 		"age": 28,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 351
 	},
 	{
 		"first": "DeeJay",
 		"last": "Dallas",
 		"position": "RB",
-		"team": "SEA",
+		"team": "ARI",
 		"age": 25,
-		"years_exp": 3,
-		"search_rank": 430
-	},
-	{
-		"first": "Xavier",
-		"last": "Hutchinson",
-		"position": "WR",
-		"team": "HOU",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 421
+		"years_exp": 4,
+		"search_rank": 444
 	},
 	{
 		"first": "Kendrick",
@@ -2102,8 +2165,17 @@ var playersData = [
 		"position": "WR",
 		"team": "NE",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 60
+		"years_exp": 7,
+		"search_rank": 253
+	},
+	{
+		"first": "Jalen",
+		"last": "Coker",
+		"position": "WR",
+		"team": "CAR",
+		"age": 0,
+		"years_exp": 0,
+		"search_rank": 457
 	},
 	{
 		"first": "Josh",
@@ -2119,9 +2191,9 @@ var playersData = [
 		"last": "Kirk",
 		"position": "WR",
 		"team": "JAX",
-		"age": 26,
-		"years_exp": 5,
-		"search_rank": 71
+		"age": 27,
+		"years_exp": 6,
+		"search_rank": 64
 	},
 	{
 		"first": "Benny",
@@ -2136,18 +2208,18 @@ var playersData = [
 		"first": "Aaron",
 		"last": "Jones",
 		"position": "RB",
-		"team": "GB",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 38
+		"team": "MIN",
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 63
 	},
 	{
 		"first": "Trace",
 		"last": "McSorley",
 		"position": "QB",
-		"team": "CHI",
+		"team": "",
 		"age": 28,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 337
 	},
 	{
@@ -2165,26 +2237,26 @@ var playersData = [
 		"position": "WR",
 		"team": "WAS",
 		"age": 28,
-		"years_exp": 4,
-		"search_rank": 51
+		"years_exp": 5,
+		"search_rank": 69
 	},
 	{
-		"first": "Xavier",
-		"last": "Gipson",
+		"first": "Ainias",
+		"last": "Smith",
 		"position": "WR",
-		"team": "NYJ",
-		"age": 22,
+		"team": "PHI",
+		"age": 23,
 		"years_exp": 0,
-		"search_rank": 377
+		"search_rank": 476
 	},
 	{
 		"first": "Thomas",
 		"last": "Odukoya",
 		"position": "TE",
 		"team": "TEN",
-		"age": 26,
-		"years_exp": 1,
-		"search_rank": 409
+		"age": 27,
+		"years_exp": 2,
+		"search_rank": 345
 	},
 	{
 		"first": "Alize",
@@ -2196,13 +2268,22 @@ var playersData = [
 		"search_rank": 330
 	},
 	{
+		"first": "Kendric",
+		"last": "Pryor",
+		"position": "WR",
+		"team": "CIN",
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 477
+	},
+	{
 		"first": "Rashod",
 		"last": "Bateman",
 		"position": "WR",
 		"team": "BAL",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 125
+		"age": 24,
+		"years_exp": 3,
+		"search_rank": 222
 	},
 	{
 		"first": "Jelani",
@@ -2210,8 +2291,8 @@ var playersData = [
 		"position": "TE",
 		"team": "IND",
 		"age": 25,
-		"years_exp": 1,
-		"search_rank": 259
+		"years_exp": 2,
+		"search_rank": 272
 	},
 	{
 		"first": "Chris",
@@ -2219,26 +2300,17 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 357
 	},
 	{
 		"first": "Zack",
 		"last": "Moss",
 		"position": "RB",
-		"team": "IND",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 80
-	},
-	{
-		"first": "David",
-		"last": "Moore",
-		"position": "WR",
-		"team": "TB",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 319
+		"team": "CIN",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 99
 	},
 	{
 		"first": "Kevin",
@@ -2250,6 +2322,15 @@ var playersData = [
 		"search_rank": 439
 	},
 	{
+		"first": "Jonathon",
+		"last": "Brooks",
+		"position": "RB",
+		"team": "CAR",
+		"age": 20,
+		"years_exp": 0,
+		"search_rank": 84
+	},
+	{
 		"first": "Ryan",
 		"last": "Santoso",
 		"position": "K",
@@ -2259,12 +2340,12 @@ var playersData = [
 		"search_rank": 367
 	},
 	{
-		"first": "Scott",
+		"first": "Scotty",
 		"last": "Miller",
 		"position": "WR",
-		"team": "ATL",
+		"team": "PIT",
 		"age": 26,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 258
 	},
 	{
@@ -2281,36 +2362,45 @@ var playersData = [
 		"last": "Montgomery",
 		"position": "RB",
 		"team": "DET",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 75
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 66
+	},
+	{
+		"first": "Brian",
+		"last": "Thomas",
+		"position": "WR",
+		"team": "JAX",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 93
+	},
+	{
+		"first": "Eddy",
+		"last": "Pineiro",
+		"position": "K",
+		"team": "CAR",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 406
 	},
 	{
 		"first": "Teddy",
 		"last": "Bridgewater",
 		"position": "QB",
-		"team": "DET",
-		"age": 30,
-		"years_exp": 9,
+		"team": "",
+		"age": 31,
+		"years_exp": 10,
 		"search_rank": 336
-	},
-	{
-		"first": "Desmond",
-		"last": "Ridder",
-		"position": "QB",
-		"team": "ATL",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 250
 	},
 	{
 		"first": "Tanner",
 		"last": "Conner",
 		"position": "TE",
 		"team": "MIA",
-		"age": 25,
-		"years_exp": 1,
-		"search_rank": 467
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 459
 	},
 	{
 		"first": "Darwin",
@@ -2322,13 +2412,22 @@ var playersData = [
 		"search_rank": 439
 	},
 	{
+		"first": "Rasheen",
+		"last": "Ali",
+		"position": "RB",
+		"team": "BAL",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 413
+	},
+	{
 		"first": "Tyjae",
 		"last": "Spears",
 		"position": "RB",
 		"team": "TEN",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 187
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 112
 	},
 	{
 		"first": "Davis",
@@ -2345,7 +2444,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 461
 	},
 	{
@@ -2356,15 +2455,6 @@ var playersData = [
 		"age": 37,
 		"years_exp": 17,
 		"search_rank": 425
-	},
-	{
-		"first": "Donovan",
-		"last": "Peoples-Jones",
-		"position": "WR",
-		"team": "DET",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 210
 	},
 	{
 		"first": "Darrell",
@@ -2388,9 +2478,9 @@ var playersData = [
 		"first": "Ben",
 		"last": "Skowronek",
 		"position": "WR",
-		"team": "LAR",
-		"age": 26,
-		"years_exp": 2,
+		"team": "HOU",
+		"age": 27,
+		"years_exp": 3,
 		"search_rank": 499
 	},
 	{
@@ -2407,8 +2497,8 @@ var playersData = [
 		"last": "Sample",
 		"position": "TE",
 		"team": "CIN",
-		"age": 27,
-		"years_exp": 4,
+		"age": 28,
+		"years_exp": 5,
 		"search_rank": 499
 	},
 	{
@@ -2426,7 +2516,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 256
 	},
 	{
@@ -2434,36 +2524,36 @@ var playersData = [
 		"last": "Etienne",
 		"position": "RB",
 		"team": "JAX",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 27
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 23
 	},
 	{
 		"first": "Kenneth",
 		"last": "Gainwell",
 		"position": "RB",
 		"team": "PHI",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 165
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 280
 	},
 	{
 		"first": "Stefon",
 		"last": "Diggs",
 		"position": "WR",
-		"team": "BUF",
-		"age": 29,
-		"years_exp": 8,
-		"search_rank": 8
+		"team": "HOU",
+		"age": 30,
+		"years_exp": 9,
+		"search_rank": 28
 	},
 	{
-		"first": "Deon",
-		"last": "Jackson",
-		"position": "RB",
-		"team": "NYG",
+		"first": "Bo",
+		"last": "Nix",
+		"position": "QB",
+		"team": "DEN",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 203
+		"years_exp": 0,
+		"search_rank": 138
 	},
 	{
 		"first": "Wil",
@@ -2471,17 +2561,17 @@ var playersData = [
 		"position": "K",
 		"team": "DEN",
 		"age": 29,
-		"years_exp": 7,
-		"search_rank": 381
+		"years_exp": 8,
+		"search_rank": 395
 	},
 	{
 		"first": "Gabe",
 		"last": "Davis",
 		"position": "WR",
-		"team": "BUF",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 94
+		"team": "JAX",
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 142
 	},
 	{
 		"first": "Makai",
@@ -2496,9 +2586,9 @@ var playersData = [
 		"first": "Sean",
 		"last": "Mannion",
 		"position": "QB",
-		"team": "MIN",
+		"team": "",
 		"age": 31,
-		"years_exp": 8,
+		"years_exp": 9,
 		"search_rank": 343
 	},
 	{
@@ -2507,26 +2597,17 @@ var playersData = [
 		"position": "K",
 		"team": "NO",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 320
-	},
-	{
-		"first": "Sammis",
-		"last": "Reyes",
-		"position": "TE",
-		"team": "",
-		"age": 27,
-		"years_exp": 2,
-		"search_rank": 472
+		"years_exp": 1,
+		"search_rank": 450
 	},
 	{
 		"first": "Cole",
 		"last": "Kmet",
 		"position": "TE",
 		"team": "CHI",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 121
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 124
 	},
 	{
 		"first": "Eric",
@@ -2534,16 +2615,16 @@ var playersData = [
 		"position": "RB",
 		"team": "NYG",
 		"age": 24,
-		"years_exp": 0,
-		"search_rank": 425
+		"years_exp": 1,
+		"search_rank": 469
 	},
 	{
 		"first": "J.J.",
 		"last": "Taylor",
 		"position": "RB",
 		"team": "HOU",
-		"age": 25,
-		"years_exp": 3,
+		"age": 26,
+		"years_exp": 4,
 		"search_rank": 462
 	},
 	{
@@ -2560,8 +2641,8 @@ var playersData = [
 		"last": "Luther",
 		"position": "WR",
 		"team": "",
-		"age": 23,
-		"years_exp": 0,
+		"age": 24,
+		"years_exp": 1,
 		"search_rank": 350
 	},
 	{
@@ -2570,17 +2651,17 @@ var playersData = [
 		"position": "RB",
 		"team": "DEN",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 113
+		"years_exp": 7,
+		"search_rank": 304
 	},
 	{
 		"first": "Zay",
 		"last": "Jones",
 		"position": "WR",
-		"team": "JAX",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 169
+		"team": "ARI",
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 235
 	},
 	{
 		"first": "Jack",
@@ -2592,12 +2673,21 @@ var playersData = [
 		"search_rank": 416
 	},
 	{
+		"first": "MarShawn",
+		"last": "Lloyd",
+		"position": "RB",
+		"team": "GB",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 150
+	},
+	{
 		"first": "Greg",
 		"last": "Joseph",
 		"position": "K",
-		"team": "MIN",
+		"team": "GB",
 		"age": 29,
-		"years_exp": 5,
+		"years_exp": 6,
 		"search_rank": 408
 	},
 	{
@@ -2605,9 +2695,9 @@ var playersData = [
 		"last": "Pierce",
 		"position": "RB",
 		"team": "HOU",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 46
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 211
 	},
 	{
 		"first": "Bug",
@@ -2624,7 +2714,7 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 0,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 297
 	},
 	{
@@ -2633,7 +2723,7 @@ var playersData = [
 		"position": "TE",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 472
 	},
 	{
@@ -2642,8 +2732,8 @@ var playersData = [
 		"position": "TE",
 		"team": "GB",
 		"age": 23,
-		"years_exp": 0,
-		"search_rank": 182
+		"years_exp": 1,
+		"search_rank": 134
 	},
 	{
 		"first": "Brayden",
@@ -2655,13 +2745,22 @@ var playersData = [
 		"search_rank": 342
 	},
 	{
+		"first": "Daylen",
+		"last": "Baldwin",
+		"position": "WR",
+		"team": "ATL",
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 404
+	},
+	{
 		"first": "Amon-Ra",
 		"last": "St. Brown",
 		"position": "WR",
 		"team": "DET",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 18
+		"years_exp": 3,
+		"search_rank": 6
 	},
 	{
 		"first": "Mac",
@@ -2669,7 +2768,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 405
 	},
 	{
@@ -2685,10 +2784,10 @@ var playersData = [
 		"first": "Odell",
 		"last": "Beckham",
 		"position": "WR",
-		"team": "BAL",
+		"team": "MIA",
 		"age": 31,
-		"years_exp": 9,
-		"search_rank": 109
+		"years_exp": 10,
+		"search_rank": 202
 	},
 	{
 		"first": "Dalton",
@@ -2696,8 +2795,8 @@ var playersData = [
 		"position": "TE",
 		"team": "BUF",
 		"age": 24,
-		"years_exp": 0,
-		"search_rank": 60
+		"years_exp": 1,
+		"search_rank": 49
 	},
 	{
 		"first": "Kenneth",
@@ -2705,8 +2804,8 @@ var playersData = [
 		"position": "RB",
 		"team": "SEA",
 		"age": 23,
-		"years_exp": 1,
-		"search_rank": 39
+		"years_exp": 2,
+		"search_rank": 44
 	},
 	{
 		"first": "Thaddeus",
@@ -2723,16 +2822,16 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 482
 	},
 	{
 		"first": "Eno",
 		"last": "Benjamin",
 		"position": "RB",
-		"team": "NO",
-		"age": 24,
-		"years_exp": 3,
+		"team": "",
+		"age": 25,
+		"years_exp": 4,
 		"search_rank": 413
 	},
 	{
@@ -2740,8 +2839,8 @@ var playersData = [
 		"last": "Heyward",
 		"position": "TE",
 		"team": "PIT",
-		"age": 24,
-		"years_exp": 1,
+		"age": 25,
+		"years_exp": 2,
 		"search_rank": 374
 	},
 	{
@@ -2752,15 +2851,6 @@ var playersData = [
 		"age": 24,
 		"years_exp": 1,
 		"search_rank": 406
-	},
-	{
-		"first": "Robert",
-		"last": "Woods",
-		"position": "WR",
-		"team": "HOU",
-		"age": 31,
-		"years_exp": 10,
-		"search_rank": 239
 	},
 	{
 		"first": "Tavien",
@@ -2777,7 +2867,7 @@ var playersData = [
 		"position": "WR",
 		"team": "CIN",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 405
 	},
 	{
@@ -2786,17 +2876,8 @@ var playersData = [
 		"position": "QB",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 425
-	},
-	{
-		"first": "Terrace",
-		"last": "Marshall",
-		"position": "WR",
-		"team": "CAR",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 269
 	},
 	{
 		"first": "T.Y.",
@@ -2811,25 +2892,25 @@ var playersData = [
 		"first": "Latavius",
 		"last": "Murray",
 		"position": "RB",
-		"team": "BUF",
-		"age": 33,
-		"years_exp": 10,
-		"search_rank": 436
+		"team": "",
+		"age": 34,
+		"years_exp": 11,
+		"search_rank": 467
 	},
 	{
 		"first": "Russell",
 		"last": "Wilson",
 		"position": "QB",
-		"team": "DEN",
-		"age": 34,
-		"years_exp": 11,
-		"search_rank": 80
+		"team": "PIT",
+		"age": 35,
+		"years_exp": 12,
+		"search_rank": 219
 	},
 	{
 		"first": "Jake",
 		"last": "Luton",
 		"position": "QB",
-		"team": "CAR",
+		"team": "",
 		"age": 27,
 		"years_exp": 3,
 		"search_rank": 297
@@ -2839,9 +2920,18 @@ var playersData = [
 		"last": "Purdy",
 		"position": "QB",
 		"team": "SF",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 152
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 46
+	},
+	{
+		"first": "Tyreik",
+		"last": "McAllister",
+		"position": "RB",
+		"team": "LV",
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 454
 	},
 	{
 		"first": "Clayton",
@@ -2856,10 +2946,10 @@ var playersData = [
 		"first": "Patrick",
 		"last": "Taylor",
 		"position": "RB",
-		"team": "NE",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 483
+		"team": "SF",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 498
 	},
 	{
 		"first": "Jeremy",
@@ -2878,6 +2968,15 @@ var playersData = [
 		"age": 25,
 		"years_exp": 1,
 		"search_rank": 280
+	},
+	{
+		"first": "Jared",
+		"last": "Wiley",
+		"position": "TE",
+		"team": "KC",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 399
 	},
 	{
 		"first": "Sony",
@@ -2903,8 +3002,8 @@ var playersData = [
 		"position": "TE",
 		"team": "NO",
 		"age": 33,
-		"years_exp": 6,
-		"search_rank": 162
+		"years_exp": 7,
+		"search_rank": 182
 	},
 	{
 		"first": "Anthony",
@@ -2920,27 +3019,27 @@ var playersData = [
 		"last": "Tucker",
 		"position": "K",
 		"team": "BAL",
-		"age": 33,
-		"years_exp": 11,
-		"search_rank": 92
+		"age": 34,
+		"years_exp": 12,
+		"search_rank": 162
 	},
 	{
 		"first": "Keenan",
 		"last": "Allen",
 		"position": "WR",
-		"team": "LAC",
-		"age": 31,
-		"years_exp": 10,
-		"search_rank": 40
+		"team": "CHI",
+		"age": 32,
+		"years_exp": 11,
+		"search_rank": 54
 	},
 	{
 		"first": "Jameis",
 		"last": "Winston",
 		"position": "QB",
-		"team": "NO",
-		"age": 29,
-		"years_exp": 8,
-		"search_rank": 356
+		"team": "CLE",
+		"age": 30,
+		"years_exp": 9,
+		"search_rank": 492
 	},
 	{
 		"first": "Jake",
@@ -2952,13 +3051,22 @@ var playersData = [
 		"search_rank": 408
 	},
 	{
+		"first": "Marvin",
+		"last": "Harrison",
+		"position": "WR",
+		"team": "ARI",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 14
+	},
+	{
 		"first": "George",
 		"last": "Kittle",
 		"position": "TE",
 		"team": "SF",
 		"age": 30,
-		"years_exp": 6,
-		"search_rank": 44
+		"years_exp": 7,
+		"search_rank": 62
 	},
 	{
 		"first": "Quinn",
@@ -2991,28 +3099,28 @@ var playersData = [
 		"first": "Darnell",
 		"last": "Mooney",
 		"position": "WR",
-		"team": "CHI",
+		"team": "ATL",
 		"age": 26,
-		"years_exp": 3,
-		"search_rank": 155
-	},
-	{
-		"first": "Cedric",
-		"last": "Tillman",
-		"position": "WR",
-		"team": "CLE",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 337
+		"years_exp": 4,
+		"search_rank": 184
 	},
 	{
 		"first": "Jameson",
 		"last": "Williams",
 		"position": "WR",
 		"team": "DET",
-		"age": 22,
-		"years_exp": 1,
-		"search_rank": 125
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 109
+	},
+	{
+		"first": "Cam",
+		"last": "Little",
+		"position": "K",
+		"team": "JAX",
+		"age": 20,
+		"years_exp": 0,
+		"search_rank": 374
 	},
 	{
 		"first": "DeSean",
@@ -3027,9 +3135,9 @@ var playersData = [
 		"first": "Keelan",
 		"last": "Cole",
 		"position": "WR",
-		"team": "LV",
-		"age": 30,
-		"years_exp": 6,
+		"team": "",
+		"age": 31,
+		"years_exp": 7,
 		"search_rank": 432
 	},
 	{
@@ -3074,35 +3182,35 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 286
 	},
 	{
-		"first": "Brevin",
-		"last": "Jordan",
+		"first": "Foster",
+		"last": "Moreau",
 		"position": "TE",
-		"team": "HOU",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 477
+		"team": "NO",
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 350
 	},
 	{
 		"first": "Trey",
 		"last": "Lance",
 		"position": "QB",
 		"team": "DAL",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 252
+		"age": 24,
+		"years_exp": 3,
+		"search_rank": 393
 	},
 	{
 		"first": "Cooper",
 		"last": "Kupp",
 		"position": "WR",
 		"team": "LAR",
-		"age": 30,
-		"years_exp": 6,
-		"search_rank": 16
+		"age": 31,
+		"years_exp": 7,
+		"search_rank": 43
 	},
 	{
 		"first": "Keshunn",
@@ -3119,17 +3227,17 @@ var playersData = [
 		"position": "QB",
 		"team": "DET",
 		"age": 29,
-		"years_exp": 7,
-		"search_rank": 75
+		"years_exp": 8,
+		"search_rank": 65
 	},
 	{
 		"first": "Jahmyr",
 		"last": "Gibbs",
 		"position": "RB",
 		"team": "DET",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 32
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 11
 	},
 	{
 		"first": "O.J.",
@@ -3144,9 +3252,9 @@ var playersData = [
 		"first": "Brett",
 		"last": "Rypien",
 		"position": "QB",
-		"team": "LAR",
+		"team": "CHI",
 		"age": 27,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 439
 	},
 	{
@@ -3155,8 +3263,8 @@ var playersData = [
 		"position": "QB",
 		"team": "LV",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 440
+		"years_exp": 1,
+		"search_rank": 296
 	},
 	{
 		"first": "Holton",
@@ -3164,26 +3272,17 @@ var playersData = [
 		"position": "QB",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 312
-	},
-	{
-		"first": "Joshua",
-		"last": "Dobbs",
-		"position": "QB",
-		"team": "MIN",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 100
 	},
 	{
 		"first": "Nick",
 		"last": "Bowers",
 		"position": "TE",
-		"team": "MIA",
-		"age": 27,
-		"years_exp": 3,
-		"search_rank": 289
+		"team": "",
+		"age": 28,
+		"years_exp": 4,
+		"search_rank": 355
 	},
 	{
 		"first": "Isaiah",
@@ -3191,17 +3290,17 @@ var playersData = [
 		"position": "RB",
 		"team": "LAC",
 		"age": 22,
-		"years_exp": 1,
-		"search_rank": 471
+		"years_exp": 2,
+		"search_rank": 458
 	},
 	{
-		"first": "Davis",
-		"last": "Allen",
+		"first": "Payne",
+		"last": "Durham",
 		"position": "TE",
-		"team": "LAR",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 266
+		"team": "TB",
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 424
 	},
 	{
 		"first": "Lachlan",
@@ -3209,26 +3308,35 @@ var playersData = [
 		"position": "TE",
 		"team": "",
 		"age": 0,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 413
+	},
+	{
+		"first": "Xavier",
+		"last": "Worthy",
+		"position": "WR",
+		"team": "KC",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 74
 	},
 	{
 		"first": "Joe",
 		"last": "Burrow",
 		"position": "QB",
 		"team": "CIN",
-		"age": 26,
-		"years_exp": 3,
-		"search_rank": 13
+		"age": 27,
+		"years_exp": 4,
+		"search_rank": 16
 	},
 	{
 		"first": "Anthony",
 		"last": "Richardson",
 		"position": "QB",
 		"team": "IND",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 76
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 21
 	},
 	{
 		"first": "Stetson",
@@ -3236,8 +3344,8 @@ var playersData = [
 		"position": "QB",
 		"team": "LAR",
 		"age": 26,
-		"years_exp": 0,
-		"search_rank": 391
+		"years_exp": 1,
+		"search_rank": 348
 	},
 	{
 		"first": "Rodney",
@@ -3254,17 +3362,35 @@ var playersData = [
 		"position": "TE",
 		"team": "MIA",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 411
 	},
 	{
-		"first": "Marquise",
+		"first": "Dresser",
+		"last": "Winn",
+		"position": "QB",
+		"team": "LAR",
+		"age": 25,
+		"years_exp": 1,
+		"search_rank": 332
+	},
+	{
+		"first": "Hollywood",
 		"last": "Brown",
 		"position": "WR",
-		"team": "ARI",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 79
+		"team": "KC",
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 78
+	},
+	{
+		"first": "Malik",
+		"last": "Nabers",
+		"position": "WR",
+		"team": "NYG",
+		"age": 20,
+		"years_exp": 0,
+		"search_rank": 30
 	},
 	{
 		"first": "Drake",
@@ -3272,17 +3398,17 @@ var playersData = [
 		"position": "WR",
 		"team": "ATL",
 		"age": 22,
-		"years_exp": 1,
-		"search_rank": 44
+		"years_exp": 2,
+		"search_rank": 19
 	},
 	{
 		"first": "Raheem",
 		"last": "Mostert",
 		"position": "RB",
 		"team": "MIA",
-		"age": 31,
-		"years_exp": 8,
-		"search_rank": 130
+		"age": 32,
+		"years_exp": 9,
+		"search_rank": 83
 	},
 	{
 		"first": "DeWayne",
@@ -3290,8 +3416,8 @@ var playersData = [
 		"position": "RB",
 		"team": "MIN",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 236
+		"years_exp": 1,
+		"search_rank": 434
 	},
 	{
 		"first": "Corey",
@@ -3307,26 +3433,17 @@ var playersData = [
 		"last": "Carr",
 		"position": "QB",
 		"team": "NO",
-		"age": 32,
-		"years_exp": 9,
-		"search_rank": 159
-	},
-	{
-		"first": "Allen",
-		"last": "Robinson",
-		"position": "WR",
-		"team": "PIT",
-		"age": 30,
-		"years_exp": 9,
-		"search_rank": 266
+		"age": 33,
+		"years_exp": 10,
+		"search_rank": 216
 	},
 	{
 		"first": "Cody",
 		"last": "White",
 		"position": "WR",
-		"team": "",
-		"age": 24,
-		"years_exp": 3,
+		"team": "SEA",
+		"age": 25,
+		"years_exp": 4,
 		"search_rank": 386
 	},
 	{
@@ -3343,8 +3460,8 @@ var playersData = [
 		"last": "Boswell",
 		"position": "K",
 		"team": "PIT",
-		"age": 32,
-		"years_exp": 9,
+		"age": 33,
+		"years_exp": 10,
 		"search_rank": 377
 	},
 	{
@@ -3352,36 +3469,27 @@ var playersData = [
 		"last": "Bell",
 		"position": "WR",
 		"team": "CLE",
-		"age": 22,
-		"years_exp": 1,
+		"age": 23,
+		"years_exp": 2,
 		"search_rank": 475
-	},
-	{
-		"first": "Tommy",
-		"last": "DeVito",
-		"position": "QB",
-		"team": "NYG",
-		"age": 25,
-		"years_exp": 0,
-		"search_rank": 257
 	},
 	{
 		"first": "DeVonta",
 		"last": "Smith",
 		"position": "WR",
 		"team": "PHI",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 28
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 45
 	},
 	{
 		"first": "Bijan",
 		"last": "Robinson",
 		"position": "RB",
 		"team": "ATL",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 15
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 8
 	},
 	{
 		"first": "Julian",
@@ -3414,37 +3522,46 @@ var playersData = [
 		"first": "Hunter",
 		"last": "Renfrow",
 		"position": "WR",
-		"team": "LV",
-		"age": 27,
-		"years_exp": 4,
+		"team": "",
+		"age": 28,
+		"years_exp": 5,
 		"search_rank": 213
 	},
 	{
 		"first": "Eric",
 		"last": "Tomlinson",
 		"position": "TE",
-		"team": "BAL",
-		"age": 31,
-		"years_exp": 8,
+		"team": "IND",
+		"age": 32,
+		"years_exp": 9,
 		"search_rank": 299
+	},
+	{
+		"first": "Troy",
+		"last": "Franklin",
+		"position": "WR",
+		"team": "DEN",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 140
 	},
 	{
 		"first": "Gus",
 		"last": "Edwards",
 		"position": "RB",
-		"team": "BAL",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 202
+		"team": "LAC",
+		"age": 29,
+		"years_exp": 6,
+		"search_rank": 114
 	},
 	{
 		"first": "Mike",
 		"last": "Gesicki",
 		"position": "TE",
-		"team": "NE",
+		"team": "CIN",
 		"age": 28,
-		"years_exp": 5,
-		"search_rank": 238
+		"years_exp": 6,
+		"search_rank": 239
 	},
 	{
 		"first": "Trey",
@@ -3456,13 +3573,22 @@ var playersData = [
 		"search_rank": 292
 	},
 	{
+		"first": "Michael",
+		"last": "Penix",
+		"position": "QB",
+		"team": "ATL",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 170
+	},
+	{
 		"first": "Hayden",
 		"last": "Hurst",
 		"position": "TE",
-		"team": "CAR",
+		"team": "LAC",
 		"age": 30,
-		"years_exp": 5,
-		"search_rank": 231
+		"years_exp": 6,
+		"search_rank": 275
 	},
 	{
 		"first": "Cethan",
@@ -3478,9 +3604,9 @@ var playersData = [
 		"last": "Mims",
 		"position": "WR",
 		"team": "DEN",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 179
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 191
 	},
 	{
 		"first": "Dontrell",
@@ -3497,17 +3623,17 @@ var playersData = [
 		"position": "RB",
 		"team": "MIA",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 45
+		"years_exp": 1,
+		"search_rank": 24
 	},
 	{
 		"first": "Rashee",
 		"last": "Rice",
 		"position": "WR",
 		"team": "KC",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 99
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 68
 	},
 	{
 		"first": "Brandon",
@@ -3515,7 +3641,7 @@ var playersData = [
 		"position": "QB",
 		"team": "SF",
 		"age": 31,
-		"years_exp": 7,
+		"years_exp": 8,
 		"search_rank": 358
 	},
 	{
@@ -3524,17 +3650,17 @@ var playersData = [
 		"position": "WR",
 		"team": "SEA",
 		"age": 31,
-		"years_exp": 8,
-		"search_rank": 68
+		"years_exp": 9,
+		"search_rank": 121
 	},
 	{
-		"first": "Keaontay",
-		"last": "Ingram",
+		"first": "Tyrone",
+		"last": "Tracy",
 		"position": "RB",
-		"team": "ARI",
+		"team": "NYG",
 		"age": 24,
-		"years_exp": 1,
-		"search_rank": 254
+		"years_exp": 0,
+		"search_rank": 181
 	},
 	{
 		"first": "Tyler",
@@ -3542,8 +3668,17 @@ var playersData = [
 		"position": "TE",
 		"team": "NYJ",
 		"age": 28,
-		"years_exp": 5,
-		"search_rank": 237
+		"years_exp": 6,
+		"search_rank": 195
+	},
+	{
+		"first": "Brandon",
+		"last": "Powell",
+		"position": "WR",
+		"team": "MIN",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 436
 	},
 	{
 		"first": "Avery",
@@ -3551,8 +3686,17 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 276
+	},
+	{
+		"first": "Robert",
+		"last": "Tonyan",
+		"position": "TE",
+		"team": "MIN",
+		"age": 30,
+		"years_exp": 7,
+		"search_rank": 486
 	},
 	{
 		"first": "Devin",
@@ -3578,8 +3722,8 @@ var playersData = [
 		"position": "WR",
 		"team": "CAR",
 		"age": 33,
-		"years_exp": 10,
-		"search_rank": 65
+		"years_exp": 11,
+		"search_rank": 162
 	},
 	{
 		"first": "Chris",
@@ -3594,82 +3738,64 @@ var playersData = [
 		"first": "Jimmy",
 		"last": "Graham",
 		"position": "TE",
-		"team": "NO",
-		"age": 36,
-		"years_exp": 13,
-		"search_rank": 453
+		"team": "",
+		"age": 37,
+		"years_exp": 14,
+		"search_rank": 410
 	},
 	{
 		"first": "Dallas",
 		"last": "Goedert",
 		"position": "TE",
 		"team": "PHI",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 59
+		"age": 29,
+		"years_exp": 6,
+		"search_rank": 103
 	},
 	{
 		"first": "DJ",
 		"last": "Moore",
 		"position": "WR",
 		"team": "CHI",
-		"age": 26,
-		"years_exp": 5,
-		"search_rank": 49
+		"age": 27,
+		"years_exp": 6,
+		"search_rank": 32
 	},
 	{
 		"first": "Mecole",
 		"last": "Hardman",
 		"position": "WR",
 		"team": "KC",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 233
-	},
-	{
-		"first": "Rashaad",
-		"last": "Penny",
-		"position": "RB",
-		"team": "PHI",
-		"age": 27,
+		"age": 26,
 		"years_exp": 5,
-		"search_rank": 102
-	},
-	{
-		"first": "Chris",
-		"last": "Rodriguez",
-		"position": "RB",
-		"team": "WAS",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 447
-	},
-	{
-		"first": "Zander",
-		"last": "Horvath",
-		"position": "RB",
-		"team": "",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 444
+		"search_rank": 489
 	},
 	{
 		"first": "Jonathan",
 		"last": "Mingo",
 		"position": "WR",
 		"team": "CAR",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 169
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 301
 	},
 	{
-		"first": "Isaiah",
-		"last": "Hodgins",
-		"position": "WR",
-		"team": "NYG",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 230
+		"first": "Will",
+		"last": "Reichard",
+		"position": "K",
+		"team": "MIN",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 391
+	},
+	{
+		"first": "Casey",
+		"last": "Bauman",
+		"position": "QB",
+		"team": "LAC",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 387
 	},
 	{
 		"first": "Rashid",
@@ -3677,17 +3803,17 @@ var playersData = [
 		"position": "WR",
 		"team": "NO",
 		"age": 25,
-		"years_exp": 1,
-		"search_rank": 77
+		"years_exp": 2,
+		"search_rank": 143
 	},
 	{
-		"first": "Sincere",
-		"last": "McCormick",
-		"position": "RB",
-		"team": "LV",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 483
+		"first": "J.J.",
+		"last": "McCarthy",
+		"position": "QB",
+		"team": "MIN",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 86
 	},
 	{
 		"first": "Tiyon",
@@ -3695,8 +3821,17 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 22,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 428
+	},
+	{
+		"first": "Matt",
+		"last": "Prater",
+		"position": "K",
+		"team": "ARI",
+		"age": 39,
+		"years_exp": 18,
+		"search_rank": 381
 	},
 	{
 		"first": "Cam",
@@ -3711,28 +3846,28 @@ var playersData = [
 		"first": "Antonio",
 		"last": "Gibson",
 		"position": "RB",
-		"team": "WAS",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 89
+		"team": "NE",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 155
 	},
 	{
 		"first": "Chase",
 		"last": "Claypool",
 		"position": "WR",
-		"team": "MIA",
+		"team": "BUF",
 		"age": 25,
-		"years_exp": 3,
-		"search_rank": 242
+		"years_exp": 4,
+		"search_rank": 442
 	},
 	{
 		"first": "Ezekiel",
 		"last": "Elliott",
 		"position": "RB",
-		"team": "NE",
+		"team": "DAL",
 		"age": 28,
-		"years_exp": 7,
-		"search_rank": 120
+		"years_exp": 8,
+		"search_rank": 123
 	},
 	{
 		"first": "Evan",
@@ -3740,8 +3875,17 @@ var playersData = [
 		"position": "TE",
 		"team": "JAX",
 		"age": 29,
-		"years_exp": 6,
-		"search_rank": 76
+		"years_exp": 7,
+		"search_rank": 71
+	},
+	{
+		"first": "Jaheim",
+		"last": "Bell",
+		"position": "TE",
+		"team": "NE",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 455
 	},
 	{
 		"first": "Trevor",
@@ -3749,25 +3893,34 @@ var playersData = [
 		"position": "QB",
 		"team": "JAX",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 32
+		"years_exp": 3,
+		"search_rank": 63
 	},
 	{
 		"first": "Hunter",
 		"last": "Henry",
 		"position": "TE",
 		"team": "NE",
-		"age": 28,
-		"years_exp": 7,
-		"search_rank": 104
+		"age": 29,
+		"years_exp": 8,
+		"search_rank": 176
+	},
+	{
+		"first": "Kedon",
+		"last": "Slovis",
+		"position": "QB",
+		"team": "IND",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 415
 	},
 	{
 		"first": "Sean",
 		"last": "McKeon",
 		"position": "TE",
-		"team": "DAL",
-		"age": 25,
-		"years_exp": 3,
+		"team": "DET",
+		"age": 26,
+		"years_exp": 4,
 		"search_rank": 459
 	},
 	{
@@ -3776,26 +3929,17 @@ var playersData = [
 		"position": "K",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 355
 	},
 	{
 		"first": "Joshua",
 		"last": "Kelley",
 		"position": "RB",
-		"team": "LAC",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 227
-	},
-	{
-		"first": "Alec",
-		"last": "Pierce",
-		"position": "WR",
-		"team": "IND",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 208
+		"team": "",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 295
 	},
 	{
 		"first": "Camerun",
@@ -3803,7 +3947,7 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 292
 	},
 	{
@@ -3811,27 +3955,36 @@ var playersData = [
 		"last": "McBride",
 		"position": "TE",
 		"team": "ARI",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 142
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 44
 	},
 	{
 		"first": "Stanley",
 		"last": "Morgan",
 		"position": "WR",
-		"team": "CIN",
+		"team": "NO",
 		"age": 27,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 367
+	},
+	{
+		"first": "Tre",
+		"last": "Tucker",
+		"position": "WR",
+		"team": "LV",
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 308
 	},
 	{
 		"first": "Clayton",
 		"last": "Tune",
 		"position": "QB",
 		"team": "ARI",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 342
+		"age": 25,
+		"years_exp": 1,
+		"search_rank": 354
 	},
 	{
 		"first": "Ted",
@@ -3847,27 +4000,27 @@ var playersData = [
 		"last": "Bandy",
 		"position": "WR",
 		"team": "DEN",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 375
+		"age": 26,
+		"years_exp": 3,
+		"search_rank": 471
 	},
 	{
 		"first": "Tony",
 		"last": "Pollard",
 		"position": "RB",
-		"team": "DAL",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 20
+		"team": "TEN",
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 79
 	},
 	{
 		"first": "Jason",
 		"last": "Sanders",
 		"position": "K",
 		"team": "MIA",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 154
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 215
 	},
 	{
 		"first": "Josh",
@@ -3882,19 +4035,19 @@ var playersData = [
 		"first": "Parker",
 		"last": "Hesse",
 		"position": "TE",
-		"team": "ATL",
-		"age": 28,
-		"years_exp": 4,
+		"team": "DET",
+		"age": 29,
+		"years_exp": 5,
 		"search_rank": 443
 	},
 	{
 		"first": "Mike",
 		"last": "Williams",
 		"position": "WR",
-		"team": "LAC",
+		"team": "NYJ",
 		"age": 29,
-		"years_exp": 6,
-		"search_rank": 69
+		"years_exp": 7,
+		"search_rank": 130
 	},
 	{
 		"first": "Jordan",
@@ -3909,37 +4062,46 @@ var playersData = [
 		"first": "Saquon",
 		"last": "Barkley",
 		"position": "RB",
-		"team": "NYG",
-		"age": 26,
-		"years_exp": 5,
-		"search_rank": 9
+		"team": "PHI",
+		"age": 27,
+		"years_exp": 6,
+		"search_rank": 16
 	},
 	{
 		"first": "Amari",
 		"last": "Cooper",
 		"position": "WR",
 		"team": "CLE",
-		"age": 29,
-		"years_exp": 8,
-		"search_rank": 43
+		"age": 30,
+		"years_exp": 9,
+		"search_rank": 58
+	},
+	{
+		"first": "Cade",
+		"last": "York",
+		"position": "K",
+		"team": "CLE",
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 369
 	},
 	{
 		"first": "Keith",
 		"last": "Kirkwood",
 		"position": "WR",
-		"team": "NO",
-		"age": 28,
-		"years_exp": 5,
+		"team": "BAL",
+		"age": 29,
+		"years_exp": 6,
 		"search_rank": 368
 	},
 	{
 		"first": "Justin",
 		"last": "Fields",
 		"position": "QB",
-		"team": "CHI",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 28
+		"team": "PIT",
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 172
 	},
 	{
 		"first": "BJ",
@@ -3963,27 +4125,18 @@ var playersData = [
 		"first": "Matt",
 		"last": "Breida",
 		"position": "RB",
-		"team": "NYG",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 403
+		"team": "",
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 351
 	},
-    {
-        "first": "Demario",
-		"last": "Douglas",
-		"position": "WR",
-		"team": "NE",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 90
-    },
 	{
 		"first": "Tim",
 		"last": "DeMorat",
 		"position": "QB",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 403
 	},
 	{
@@ -3992,7 +4145,7 @@ var playersData = [
 		"position": "TE",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 471
 	},
 	{
@@ -4008,18 +4161,18 @@ var playersData = [
 		"first": "Diontae",
 		"last": "Johnson",
 		"position": "WR",
-		"team": "PIT",
+		"team": "CAR",
 		"age": 27,
-		"years_exp": 4,
-		"search_rank": 80
+		"years_exp": 5,
+		"search_rank": 93
 	},
 	{
 		"first": "Christian",
 		"last": "McCaffrey",
 		"position": "RB",
 		"team": "SF",
-		"age": 27,
-		"years_exp": 6,
+		"age": 28,
+		"years_exp": 7,
 		"search_rank": 1
 	},
 	{
@@ -4028,8 +4181,17 @@ var playersData = [
 		"position": "WR",
 		"team": "PHI",
 		"age": 26,
-		"years_exp": 4,
-		"search_rank": 12
+		"years_exp": 5,
+		"search_rank": 9
+	},
+	{
+		"first": "Will",
+		"last": "Shipley",
+		"position": "RB",
+		"team": "PHI",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 241
 	},
 	{
 		"first": "Darnell",
@@ -4037,26 +4199,17 @@ var playersData = [
 		"position": "TE",
 		"team": "PIT",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 326
-	},
-	{
-		"first": "Kenny",
-		"last": "Pickett",
-		"position": "QB",
-		"team": "PIT",
-		"age": 25,
 		"years_exp": 1,
-		"search_rank": 148
+		"search_rank": 496
 	},
 	{
 		"first": "Brayden",
 		"last": "Willis",
 		"position": "TE",
 		"team": "SF",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 261
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 358
 	},
 	{
 		"first": "Otis",
@@ -4071,46 +4224,64 @@ var playersData = [
 		"first": "Jack",
 		"last": "Stoll",
 		"position": "TE",
-		"team": "PHI",
-		"age": 25,
-		"years_exp": 2,
+		"team": "NYG",
+		"age": 26,
+		"years_exp": 3,
 		"search_rank": 390
 	},
 	{
 		"first": "Josh",
 		"last": "Reynolds",
 		"position": "WR",
-		"team": "DET",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 341
+		"team": "DEN",
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 283
 	},
 	{
 		"first": "Calvin",
 		"last": "Ridley",
 		"position": "WR",
-		"team": "JAX",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 36
+		"team": "TEN",
+		"age": 29,
+		"years_exp": 6,
+		"search_rank": 79
 	},
 	{
-		"first": "Andrei",
-		"last": "Iosivas",
+		"first": "Malachi",
+		"last": "Corley",
 		"position": "WR",
-		"team": "CIN",
-		"age": 24,
+		"team": "NYJ",
+		"age": 22,
 		"years_exp": 0,
-		"search_rank": 434
+		"search_rank": 184
 	},
 	{
 		"first": "Puka",
 		"last": "Nacua",
 		"position": "WR",
 		"team": "LAR",
-		"age": 22,
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 10
+	},
+	{
+		"first": "Louis",
+		"last": "Rees-Zammit",
+		"position": "RB",
+		"team": "KC",
+		"age": 23,
 		"years_exp": 0,
-		"search_rank": 50
+		"search_rank": 408
+	},
+	{
+		"first": "D'Ernest",
+		"last": "Johnson",
+		"position": "RB",
+		"team": "JAX",
+		"age": 28,
+		"years_exp": 5,
+		"search_rank": 461
 	},
 	{
 		"first": "Jerome",
@@ -4118,8 +4289,8 @@ var playersData = [
 		"position": "RB",
 		"team": "CLE",
 		"age": 24,
-		"years_exp": 1,
-		"search_rank": 83
+		"years_exp": 2,
+		"search_rank": 129
 	},
 	{
 		"first": "Nick",
@@ -4134,10 +4305,19 @@ var playersData = [
 		"first": "Derrick",
 		"last": "Henry",
 		"position": "RB",
-		"team": "TEN",
-		"age": 29,
-		"years_exp": 7,
-		"search_rank": 11
+		"team": "BAL",
+		"age": 30,
+		"years_exp": 8,
+		"search_rank": 29
+	},
+	{
+		"first": "Ben",
+		"last": "Sinnott",
+		"position": "TE",
+		"team": "WAS",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 152
 	},
 	{
 		"first": "Evan",
@@ -4145,8 +4325,8 @@ var playersData = [
 		"position": "RB",
 		"team": "IND",
 		"age": 23,
-		"years_exp": 0,
-		"search_rank": 224
+		"years_exp": 1,
+		"search_rank": 302
 	},
 	{
 		"first": "Josh",
@@ -4161,9 +4341,9 @@ var playersData = [
 		"first": "Jacob",
 		"last": "Harris",
 		"position": "WR",
-		"team": "JAX",
-		"age": 26,
-		"years_exp": 2,
+		"team": "PHI",
+		"age": 27,
+		"years_exp": 3,
 		"search_rank": 251
 	},
 	{
@@ -4171,9 +4351,9 @@ var playersData = [
 		"last": "Charles",
 		"position": "WR",
 		"team": "NYJ",
-		"age": 26,
-		"years_exp": 1,
-		"search_rank": 458
+		"age": 27,
+		"years_exp": 2,
+		"search_rank": 448
 	},
 	{
 		"first": "J.P.",
@@ -4190,16 +4370,16 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 355
 	},
 	{
 		"first": "Frank",
 		"last": "Darby",
 		"position": "WR",
-		"team": "ATL",
+		"team": "",
 		"age": 26,
-		"years_exp": 2,
+		"years_exp": 3,
 		"search_rank": 440
 	},
 	{
@@ -4207,8 +4387,8 @@ var playersData = [
 		"last": "Wright",
 		"position": "RB",
 		"team": "BAL",
-		"age": 24,
-		"years_exp": 0,
+		"age": 25,
+		"years_exp": 1,
 		"search_rank": 410
 	},
 	{
@@ -4270,18 +4450,18 @@ var playersData = [
 		"last": "Zappe",
 		"position": "QB",
 		"team": "NE",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 426
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 387
 	},
 	{
 		"first": "Jerick",
 		"last": "McKinnon",
 		"position": "RB",
-		"team": "KC",
-		"age": 31,
-		"years_exp": 9,
-		"search_rank": 125
+		"team": "",
+		"age": 32,
+		"years_exp": 10,
+		"search_rank": 236
 	},
 	{
 		"first": "Alex",
@@ -4289,7 +4469,7 @@ var playersData = [
 		"position": "K",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 307
 	},
 	{
@@ -4297,9 +4477,18 @@ var playersData = [
 		"last": "Kalinic",
 		"position": "TE",
 		"team": "LAR",
-		"age": 26,
-		"years_exp": 1,
-		"search_rank": 256
+		"age": 27,
+		"years_exp": 2,
+		"search_rank": 494
+	},
+	{
+		"first": "Julius",
+		"last": "Chestnut",
+		"position": "RB",
+		"team": "TEN",
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 319
 	},
 	{
 		"first": "William",
@@ -4315,9 +4504,9 @@ var playersData = [
 		"last": "Allgeier",
 		"position": "RB",
 		"team": "ATL",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 135
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 158
 	},
 	{
 		"first": "Tyler",
@@ -4325,17 +4514,8 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 25,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 338
-	},
-	{
-		"first": "Tutu",
-		"last": "Atwell",
-		"position": "WR",
-		"team": "LAR",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 427
 	},
 	{
 		"first": "Mike",
@@ -4343,8 +4523,8 @@ var playersData = [
 		"position": "WR",
 		"team": "TB",
 		"age": 30,
-		"years_exp": 9,
-		"search_rank": 73
+		"years_exp": 10,
+		"search_rank": 30
 	},
 	{
 		"first": "Blake",
@@ -4360,9 +4540,9 @@ var playersData = [
 		"last": "Hill",
 		"position": "WR",
 		"team": "MIA",
-		"age": 29,
-		"years_exp": 7,
-		"search_rank": 4
+		"age": 30,
+		"years_exp": 8,
+		"search_rank": 3
 	},
 	{
 		"first": "Michael",
@@ -4379,26 +4559,35 @@ var playersData = [
 		"position": "QB",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 249
 	},
 	{
-		"first": "JuJu",
-		"last": "Smith-Schuster",
-		"position": "WR",
-		"team": "NE",
-		"age": 26,
-		"years_exp": 6,
-		"search_rank": 107
+		"first": "Skylar",
+		"last": "Thompson",
+		"position": "QB",
+		"team": "MIA",
+		"age": 27,
+		"years_exp": 2,
+		"search_rank": 468
 	},
 	{
 		"first": "Lil'Jordan",
 		"last": "Humphrey",
 		"position": "WR",
 		"team": "DEN",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 487
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 496
+	},
+	{
+		"first": "Daniel",
+		"last": "Bellinger",
+		"position": "TE",
+		"team": "NYG",
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 285
 	},
 	{
 		"first": "Elijah",
@@ -4406,8 +4595,17 @@ var playersData = [
 		"position": "WR",
 		"team": "JAX",
 		"age": 25,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 333
+	},
+	{
+		"first": "Blake",
+		"last": "Corum",
+		"position": "RB",
+		"team": "LAR",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 120
 	},
 	{
 		"first": "Zane",
@@ -4431,9 +4629,9 @@ var playersData = [
 		"first": "Kristian",
 		"last": "Wilkerson",
 		"position": "WR",
-		"team": "",
-		"age": 26,
-		"years_exp": 3,
+		"team": "LV",
+		"age": 27,
+		"years_exp": 4,
 		"search_rank": 388
 	},
 	{
@@ -4459,18 +4657,18 @@ var playersData = [
 		"last": "Mitchell",
 		"position": "RB",
 		"team": "BAL",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 121
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 194
 	},
 	{
 		"first": "Austin",
 		"last": "Ekeler",
 		"position": "RB",
-		"team": "LAC",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 4
+		"team": "WAS",
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 95
 	},
 	{
 		"first": "Drew",
@@ -4487,17 +4685,35 @@ var playersData = [
 		"position": "WR",
 		"team": "NYJ",
 		"age": 23,
-		"years_exp": 1,
-		"search_rank": 18
+		"years_exp": 2,
+		"search_rank": 12
+	},
+	{
+		"first": "Zaire",
+		"last": "Mitchell-Paden",
+		"position": "TE",
+		"team": "CLE",
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 474
 	},
 	{
 		"first": "Elijah",
 		"last": "Moore",
 		"position": "WR",
 		"team": "CLE",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 117
+		"age": 24,
+		"years_exp": 3,
+		"search_rank": 275
+	},
+	{
+		"first": "Braelon",
+		"last": "Allen",
+		"position": "RB",
+		"team": "NYJ",
+		"age": 20,
+		"years_exp": 0,
+		"search_rank": 189
 	},
 	{
 		"first": "Hassan",
@@ -4505,8 +4721,26 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 498
+	},
+	{
+		"first": "Theo",
+		"last": "Johnson",
+		"position": "TE",
+		"team": "NYG",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 243
+	},
+	{
+		"first": "Jake",
+		"last": "Haener",
+		"position": "QB",
+		"team": "NO",
+		"age": 25,
+		"years_exp": 1,
+		"search_rank": 485
 	},
 	{
 		"first": "Tucker",
@@ -4514,17 +4748,17 @@ var playersData = [
 		"position": "TE",
 		"team": "GB",
 		"age": 23,
-		"years_exp": 0,
-		"search_rank": 490
+		"years_exp": 1,
+		"search_rank": 232
 	},
 	{
 		"first": "Treylon",
 		"last": "Burks",
 		"position": "WR",
 		"team": "TEN",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 107
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 287
 	},
 	{
 		"first": "Jose",
@@ -4532,7 +4766,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 253
 	},
 	{
@@ -4548,73 +4782,73 @@ var playersData = [
 		"first": "Alexander",
 		"last": "Mattison",
 		"position": "RB",
-		"team": "MIN",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 54
+		"team": "LV",
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 231
 	},
 	{
 		"first": "George",
 		"last": "Pickens",
 		"position": "WR",
 		"team": "PIT",
-		"age": 22,
-		"years_exp": 1,
-		"search_rank": 61
+		"age": 23,
+		"years_exp": 2,
+		"search_rank": 55
+	},
+	{
+		"first": "Tyler",
+		"last": "Huntley",
+		"position": "QB",
+		"team": "CLE",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 463
+	},
+	{
+		"first": "Roman",
+		"last": "Wilson",
+		"position": "WR",
+		"team": "PIT",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 159
 	},
 	{
 		"first": "Rico",
 		"last": "Dowdle",
 		"position": "RB",
 		"team": "DAL",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 390
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 146
 	},
 	{
 		"first": "Jake",
 		"last": "Elliott",
 		"position": "K",
 		"team": "PHI",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 136
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 169
+	},
+	{
+		"first": "Luke",
+		"last": "McCaffrey",
+		"position": "WR",
+		"team": "WAS",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 197
 	},
 	{
 		"first": "Logan",
 		"last": "Woodside",
 		"position": "QB",
-		"team": "ATL",
-		"age": 28,
-		"years_exp": 5,
+		"team": "CIN",
+		"age": 29,
+		"years_exp": 6,
 		"search_rank": 264
-	},
-	{
-		"first": "Jordan",
-		"last": "Mason",
-		"position": "RB",
-		"team": "SF",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 496
-	},
-	{
-		"first": "Daewood",
-		"last": "Davis",
-		"position": "WR",
-		"team": "",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 273
-	},
-	{
-		"first": "Josh",
-		"last": "Oliver",
-		"position": "TE",
-		"team": "MIN",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 488
 	},
 	{
 		"first": "Kenny",
@@ -4626,49 +4860,31 @@ var playersData = [
 		"search_rank": 223
 	},
 	{
-		"first": "Ronnie",
-		"last": "Bell",
-		"position": "WR",
-		"team": "SF",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 339
-	},
-	{
 		"first": "Bryce",
 		"last": "Young",
 		"position": "QB",
 		"team": "CAR",
 		"age": 22,
-		"years_exp": 0,
-		"search_rank": 104
-	},
-	{
-		"first": "Craig",
-		"last": "Reynolds",
-		"position": "RB",
-		"team": "DET",
-		"age": 27,
-		"years_exp": 4,
-		"search_rank": 420
+		"years_exp": 1,
+		"search_rank": 139
 	},
 	{
 		"first": "Nico",
 		"last": "Collins",
 		"position": "WR",
 		"team": "HOU",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 66
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 29
 	},
 	{
 		"first": "Jack",
 		"last": "Podlesny",
 		"position": "K",
 		"team": "",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 434
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 367
 	},
 	{
 		"first": "Max",
@@ -4680,39 +4896,30 @@ var playersData = [
 		"search_rank": 285
 	},
 	{
-		"first": "Kyle",
-		"last": "Trask",
-		"position": "QB",
-		"team": "TB",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 393
-	},
-	{
-		"first": "Cordarrelle",
-		"last": "Patterson",
-		"position": "RB",
-		"team": "ATL",
-		"age": 32,
-		"years_exp": 10,
-		"search_rank": 218
+		"first": "Ricky",
+		"last": "Pearsall",
+		"position": "WR",
+		"team": "SF",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 156
 	},
 	{
 		"first": "Nick",
 		"last": "Chubb",
 		"position": "RB",
 		"team": "CLE",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 7
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 90
 	},
 	{
 		"first": "Randy",
 		"last": "Bullock",
 		"position": "K",
-		"team": "NYG",
-		"age": 33,
-		"years_exp": 11,
+		"team": "",
+		"age": 34,
+		"years_exp": 12,
 		"search_rank": 351
 	},
 	{
@@ -4730,7 +4937,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 22,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 300
 	},
 	{
@@ -4738,9 +4945,18 @@ var playersData = [
 		"last": "Higbee",
 		"position": "TE",
 		"team": "LAR",
-		"age": 30,
-		"years_exp": 7,
-		"search_rank": 139
+		"age": 31,
+		"years_exp": 8,
+		"search_rank": 298
+	},
+	{
+		"first": "Lucas",
+		"last": "Havrisik",
+		"position": "K",
+		"team": "",
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 405
 	},
 	{
 		"first": "A.J.",
@@ -4761,12 +4977,30 @@ var playersData = [
 		"search_rank": 378
 	},
 	{
+		"first": "Ethan",
+		"last": "Fernea",
+		"position": "WR",
+		"team": "IND",
+		"age": 26,
+		"years_exp": 2,
+		"search_rank": 431
+	},
+	{
+		"first": "Isaac",
+		"last": "Guerendo",
+		"position": "RB",
+		"team": "SF",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 244
+	},
+	{
 		"first": "Jadakis",
 		"last": "Bonds",
 		"position": "WR",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 483
 	},
 	{
@@ -4774,9 +5008,9 @@ var playersData = [
 		"last": "Meyers",
 		"position": "WR",
 		"team": "LV",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 73
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 128
 	},
 	{
 		"first": "Tyler",
@@ -4792,9 +5026,9 @@ var playersData = [
 		"last": "Levis",
 		"position": "QB",
 		"team": "TEN",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 100
+		"age": 25,
+		"years_exp": 1,
+		"search_rank": 134
 	},
 	{
 		"first": "Golden",
@@ -4810,36 +5044,27 @@ var playersData = [
 		"last": "Watson",
 		"position": "WR",
 		"team": "GB",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 52
-	},
-	{
-		"first": "Michael",
-		"last": "Carter",
-		"position": "RB",
-		"team": "NYJ",
-		"age": 24,
+		"age": 25,
 		"years_exp": 2,
-		"search_rank": 255
-	},
-	{
-		"first": "Sean",
-		"last": "Tucker",
-		"position": "RB",
-		"team": "TB",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 229
+		"search_rank": 101
 	},
 	{
 		"first": "Randall",
 		"last": "Cobb",
 		"position": "WR",
-		"team": "NYJ",
+		"team": "",
 		"age": 33,
-		"years_exp": 12,
-		"search_rank": 453
+		"years_exp": 13,
+		"search_rank": 361
+	},
+	{
+		"first": "Mason",
+		"last": "Crosby",
+		"position": "K",
+		"team": "",
+		"age": 39,
+		"years_exp": 17,
+		"search_rank": 336
 	},
 	{
 		"first": "Andre",
@@ -4847,7 +5072,7 @@ var playersData = [
 		"position": "K",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 419
 	},
 	{
@@ -4855,36 +5080,36 @@ var playersData = [
 		"last": "Thompson-Robinson",
 		"position": "QB",
 		"team": "CLE",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 383
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 309
 	},
 	{
 		"first": "James",
 		"last": "Conner",
 		"position": "RB",
 		"team": "ARI",
-		"age": 28,
-		"years_exp": 6,
-		"search_rank": 59
+		"age": 29,
+		"years_exp": 7,
+		"search_rank": 61
 	},
 	{
 		"first": "Baker",
 		"last": "Mayfield",
 		"position": "QB",
 		"team": "TB",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 255
+		"age": 29,
+		"years_exp": 6,
+		"search_rank": 115
 	},
 	{
 		"first": "Chase",
 		"last": "McLaughlin",
 		"position": "K",
 		"team": "TB",
-		"age": 27,
-		"years_exp": 4,
-		"search_rank": 100
+		"age": 28,
+		"years_exp": 5,
+		"search_rank": 383
 	},
 	{
 		"first": "Charleston",
@@ -4896,31 +5121,49 @@ var playersData = [
 		"search_rank": 260
 	},
 	{
+		"first": "Brenton",
+		"last": "Strange",
+		"position": "TE",
+		"team": "JAX",
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 428
+	},
+	{
+		"first": "Troy",
+		"last": "Hairston",
+		"position": "RB",
+		"team": "HOU",
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 428
+	},
+	{
 		"first": "Deebo",
 		"last": "Samuel",
 		"position": "WR",
 		"team": "SF",
-		"age": 27,
-		"years_exp": 4,
-		"search_rank": 35
+		"age": 28,
+		"years_exp": 5,
+		"search_rank": 32
 	},
 	{
 		"first": "Aaron",
 		"last": "Rodgers",
 		"position": "QB",
 		"team": "NYJ",
-		"age": 39,
-		"years_exp": 18,
-		"search_rank": 88
+		"age": 40,
+		"years_exp": 19,
+		"search_rank": 136
 	},
 	{
 		"first": "Davante",
 		"last": "Adams",
 		"position": "WR",
 		"team": "LV",
-		"age": 30,
-		"years_exp": 9,
-		"search_rank": 15
+		"age": 31,
+		"years_exp": 10,
+		"search_rank": 17
 	},
 	{
 		"first": "Sean",
@@ -4928,17 +5171,8 @@ var playersData = [
 		"position": "QB",
 		"team": "GB",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 386
-	},
-	{
-		"first": "Tom",
-		"last": "Brady",
-		"position": "QB",
-		"team": "",
-		"age": 45,
-		"years_exp": 23,
-		"search_rank": 450
+		"years_exp": 1,
+		"search_rank": 330
 	},
 	{
 		"first": "Robbie",
@@ -4959,58 +5193,67 @@ var playersData = [
 		"search_rank": 280
 	},
 	{
+		"first": "Jalen",
+		"last": "McMillan",
+		"position": "WR",
+		"team": "TB",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 238
+	},
+	{
 		"first": "Deneric",
 		"last": "Prince",
 		"position": "RB",
 		"team": "KC",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 493
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 495
 	},
 	{
 		"first": "Jake",
 		"last": "Moody",
 		"position": "K",
 		"team": "SF",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 204
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 255
 	},
 	{
 		"first": "Lamar",
 		"last": "Jackson",
 		"position": "QB",
 		"team": "BAL",
-		"age": 26,
-		"years_exp": 5,
-		"search_rank": 17
+		"age": 27,
+		"years_exp": 6,
+		"search_rank": 9
 	},
 	{
 		"first": "Marquise",
 		"last": "Goodwin",
 		"position": "WR",
-		"team": "CLE",
-		"age": 32,
-		"years_exp": 10,
+		"team": "",
+		"age": 33,
+		"years_exp": 11,
 		"search_rank": 433
+	},
+	{
+		"first": "Dontayvion",
+		"last": "Wicks",
+		"position": "WR",
+		"team": "GB",
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 175
 	},
 	{
 		"first": "Miller",
 		"last": "Forristall",
 		"position": "TE",
 		"team": "LAR",
-		"age": 25,
-		"years_exp": 2,
+		"age": 26,
+		"years_exp": 3,
 		"search_rank": 261
-	},
-	{
-		"first": "Bryan",
-		"last": "Thompson",
-		"position": "WR",
-		"team": "BUF",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 338
 	},
 	{
 		"first": "Jason",
@@ -5026,44 +5269,53 @@ var playersData = [
 		"last": "Keenum",
 		"position": "QB",
 		"team": "HOU",
-		"age": 35,
-		"years_exp": 11,
+		"age": 36,
+		"years_exp": 12,
 		"search_rank": 425
 	},
 	{
 		"first": "Gerrid",
 		"last": "Doaks",
 		"position": "RB",
-		"team": "HOU",
+		"team": "",
 		"age": 25,
-		"years_exp": 2,
+		"years_exp": 3,
 		"search_rank": 447
+	},
+	{
+		"first": "DeMario",
+		"last": "Douglas",
+		"position": "WR",
+		"team": "NE",
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 189
 	},
 	{
 		"first": "Nick",
 		"last": "Muse",
 		"position": "TE",
 		"team": "MIN",
-		"age": 24,
-		"years_exp": 1,
+		"age": 25,
+		"years_exp": 2,
 		"search_rank": 256
 	},
 	{
 		"first": "Jacob",
 		"last": "Saylors",
 		"position": "RB",
-		"team": "ATL",
-		"age": 22,
-		"years_exp": 0,
+		"team": "NYG",
+		"age": 23,
+		"years_exp": 1,
 		"search_rank": 285
 	},
 	{
 		"first": "Pharaoh",
 		"last": "Brown",
 		"position": "TE",
-		"team": "NE",
-		"age": 29,
-		"years_exp": 6,
+		"team": "SEA",
+		"age": 30,
+		"years_exp": 7,
 		"search_rank": 468
 	},
 	{
@@ -5071,18 +5323,27 @@ var playersData = [
 		"last": "Gathings",
 		"position": "TE",
 		"team": "",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 327
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 495
 	},
 	{
 		"first": "D'Onta",
 		"last": "Foreman",
 		"position": "RB",
-		"team": "CHI",
-		"age": 27,
-		"years_exp": 6,
-		"search_rank": 157
+		"team": "CLE",
+		"age": 28,
+		"years_exp": 7,
+		"search_rank": 246
+	},
+	{
+		"first": "Alex",
+		"last": "Erickson",
+		"position": "WR",
+		"team": "",
+		"age": 31,
+		"years_exp": 8,
+		"search_rank": 348
 	},
 	{
 		"first": "Nakia",
@@ -5094,49 +5355,76 @@ var playersData = [
 		"search_rank": 446
 	},
 	{
+		"first": "Jamari",
+		"last": "Thrash",
+		"position": "WR",
+		"team": "CLE",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 466
+	},
+	{
+		"first": "Maurice",
+		"last": "Alexander",
+		"position": "WR",
+		"team": "DET",
+		"age": 27,
+		"years_exp": 2,
+		"search_rank": 400
+	},
+	{
 		"first": "Leroy",
 		"last": "Watson",
 		"position": "TE",
-		"team": "CLE",
-		"age": 25,
-		"years_exp": 1,
+		"team": "TEN",
+		"age": 26,
+		"years_exp": 2,
 		"search_rank": 268
+	},
+	{
+		"first": "Jordan",
+		"last": "Travis",
+		"position": "QB",
+		"team": "NYJ",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 351
 	},
 	{
 		"first": "Sam",
 		"last": "LaPorta",
 		"position": "TE",
 		"team": "DET",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 37
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 21
 	},
 	{
 		"first": "Tee",
 		"last": "Higgins",
 		"position": "WR",
 		"team": "CIN",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 26
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 55
 	},
 	{
 		"first": "Justin",
 		"last": "Herbert",
 		"position": "QB",
 		"team": "LAC",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 21
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 35
 	},
 	{
 		"first": "Jalen",
 		"last": "Tolbert",
 		"position": "WR",
 		"team": "DAL",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 394
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 274
 	},
 	{
 		"first": "Evan",
@@ -5144,34 +5432,16 @@ var playersData = [
 		"position": "K",
 		"team": "CIN",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 112
-	},
-	{
-		"first": "Dyami",
-		"last": "Brown",
-		"position": "WR",
-		"team": "WAS",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 361
-	},
-	{
-		"first": "Calvin",
-		"last": "Austin",
-		"position": "WR",
-		"team": "PIT",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 466
+		"years_exp": 3,
+		"search_rank": 165
 	},
 	{
 		"first": "Grant",
 		"last": "Calcaterra",
 		"position": "TE",
 		"team": "PHI",
-		"age": 24,
-		"years_exp": 1,
+		"age": 25,
+		"years_exp": 2,
 		"search_rank": 304
 	},
 	{
@@ -5179,9 +5449,9 @@ var playersData = [
 		"last": "Chase",
 		"position": "WR",
 		"team": "CIN",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 3
+		"age": 24,
+		"years_exp": 3,
+		"search_rank": 5
 	},
 	{
 		"first": "Mark",
@@ -5199,7 +5469,25 @@ var playersData = [
 		"team": "",
 		"age": 27,
 		"years_exp": 7,
-		"search_rank": 400
+		"search_rank": 27
+	},
+	{
+		"first": "Demarcus",
+		"last": "Robinson",
+		"position": "WR",
+		"team": "LAR",
+		"age": 29,
+		"years_exp": 8,
+		"search_rank": 236
+	},
+	{
+		"first": "Nathan",
+		"last": "Rourke",
+		"position": "QB",
+		"team": "NYG",
+		"age": 26,
+		"years_exp": 1,
+		"search_rank": 324
 	},
 	{
 		"first": "Patrick",
@@ -5207,35 +5495,44 @@ var playersData = [
 		"position": "QB",
 		"team": "KC",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 2
+		"years_exp": 7,
+		"search_rank": 3
 	},
 	{
 		"first": "Isaiah",
 		"last": "Likely",
 		"position": "TE",
 		"team": "BAL",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 244
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 160
 	},
 	{
-		"first": "Jake",
-		"last": "Bobo",
-		"position": "WR",
-		"team": "SEA",
-		"age": 25,
+		"first": "N'Keal",
+		"last": "Harry",
+		"position": "TE",
+		"team": "MIN",
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 351
+	},
+	{
+		"first": "Trey",
+		"last": "Benson",
+		"position": "RB",
+		"team": "ARI",
+		"age": 21,
 		"years_exp": 0,
-		"search_rank": 392
+		"search_rank": 105
 	},
 	{
 		"first": "Zach",
 		"last": "Ertz",
 		"position": "TE",
-		"team": "ARI",
-		"age": 32,
-		"years_exp": 10,
-		"search_rank": 216
+		"team": "WAS",
+		"age": 33,
+		"years_exp": 11,
+		"search_rank": 251
 	},
 	{
 		"first": "Bronson",
@@ -5250,19 +5547,19 @@ var playersData = [
 		"first": "Ryan",
 		"last": "Tannehill",
 		"position": "QB",
-		"team": "TEN",
+		"team": "",
 		"age": 35,
-		"years_exp": 11,
-		"search_rank": 251
+		"years_exp": 12,
+		"search_rank": 322
 	},
 	{
 		"first": "Curtis",
 		"last": "Samuel",
 		"position": "WR",
-		"team": "WAS",
+		"team": "BUF",
 		"age": 27,
-		"years_exp": 6,
-		"search_rank": 220
+		"years_exp": 7,
+		"search_rank": 115
 	},
 	{
 		"first": "Marcus",
@@ -5279,7 +5576,7 @@ var playersData = [
 		"position": "TE",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 267
 	},
 	{
@@ -5287,36 +5584,36 @@ var playersData = [
 		"last": "Ferguson",
 		"position": "TE",
 		"team": "DAL",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 103
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 88
 	},
 	{
 		"first": "Allen",
 		"last": "Lazard",
 		"position": "WR",
 		"team": "NYJ",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 123
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 308
 	},
 	{
 		"first": "Kirk",
 		"last": "Cousins",
 		"position": "QB",
-		"team": "MIN",
+		"team": "ATL",
 		"age": 35,
-		"years_exp": 11,
-		"search_rank": 92
+		"years_exp": 12,
+		"search_rank": 108
 	},
 	{
 		"first": "Isiah",
 		"last": "Pacheco",
 		"position": "RB",
 		"team": "KC",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 51
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 38
 	},
 	{
 		"first": "Titus",
@@ -5324,35 +5621,17 @@ var playersData = [
 		"position": "RB",
 		"team": "",
 		"age": 0,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 232
-	},
-	{
-		"first": "Will",
-		"last": "Mallory",
-		"position": "TE",
-		"team": "IND",
-		"age": 24,
-		"years_exp": 0,
-		"search_rank": 345
 	},
 	{
 		"first": "Cameron",
 		"last": "Dicker",
 		"position": "K",
 		"team": "LAC",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 178
-	},
-	{
-		"first": "Jimmy",
-		"last": "Garoppolo",
-		"position": "QB",
-		"team": "LV",
-		"age": 32,
-		"years_exp": 9,
-		"search_rank": 230
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 260
 	},
 	{
 		"first": "Bennie",
@@ -5367,19 +5646,28 @@ var playersData = [
 		"first": "Tarik",
 		"last": "Cohen",
 		"position": "RB",
-		"team": "CAR",
+		"team": "NYJ",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 494
+		"years_exp": 7,
+		"search_rank": 464
 	},
 	{
 		"first": "Taylor",
 		"last": "Heinicke",
 		"position": "QB",
 		"team": "ATL",
-		"age": 30,
-		"years_exp": 8,
+		"age": 31,
+		"years_exp": 9,
 		"search_rank": 333
+	},
+	{
+		"first": "Josh",
+		"last": "Johnson",
+		"position": "QB",
+		"team": "BAL",
+		"age": 38,
+		"years_exp": 16,
+		"search_rank": 320
 	},
 	{
 		"first": "Josh",
@@ -5394,46 +5682,46 @@ var playersData = [
 		"first": "K.J.",
 		"last": "Osborn",
 		"position": "WR",
-		"team": "MIN",
-		"age": 26,
-		"years_exp": 3,
-		"search_rank": 213
+		"team": "NE",
+		"age": 27,
+		"years_exp": 4,
+		"search_rank": 287
 	},
 	{
 		"first": "Dawson",
 		"last": "Knox",
 		"position": "TE",
 		"team": "BUF",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 165
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 252
+	},
+	{
+		"first": "Richie",
+		"last": "James",
+		"position": "WR",
+		"team": "",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 461
 	},
 	{
 		"first": "Chris",
 		"last": "Godwin",
 		"position": "WR",
 		"team": "TB",
-		"age": 27,
-		"years_exp": 6,
-		"search_rank": 63
-	},
-	{
-		"first": "John",
-		"last": "FitzPatrick",
-		"position": "TE",
-		"team": "ATL",
-		"age": 23,
-		"years_exp": 1,
-		"search_rank": 283
+		"age": 28,
+		"years_exp": 7,
+		"search_rank": 76
 	},
 	{
 		"first": "Hendon",
 		"last": "Hooker",
 		"position": "QB",
 		"team": "DET",
-		"age": 25,
-		"years_exp": 0,
-		"search_rank": 355
+		"age": 26,
+		"years_exp": 1,
+		"search_rank": 455
 	},
 	{
 		"first": "Lucky",
@@ -5441,26 +5729,26 @@ var playersData = [
 		"position": "WR",
 		"team": "MIN",
 		"age": 32,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 480
 	},
 	{
-		"first": "Kalif",
-		"last": "Raymond",
-		"position": "WR",
-		"team": "DET",
-		"age": 29,
-		"years_exp": 7,
-		"search_rank": 484
+		"first": "Erick",
+		"last": "All",
+		"position": "TE",
+		"team": "CIN",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 342
 	},
 	{
-		"first": "John",
-		"last": "Metchie",
-		"position": "WR",
-		"team": "HOU",
-		"age": 23,
+		"first": "Zack",
+		"last": "Kuntz",
+		"position": "TE",
+		"team": "NYJ",
+		"age": 25,
 		"years_exp": 1,
-		"search_rank": 218
+		"search_rank": 415
 	},
 	{
 		"first": "Jerreth",
@@ -5476,9 +5764,9 @@ var playersData = [
 		"last": "Gay",
 		"position": "K",
 		"team": "IND",
-		"age": 29,
-		"years_exp": 4,
-		"search_rank": 191
+		"age": 30,
+		"years_exp": 5,
+		"search_rank": 287
 	},
 	{
 		"first": "Carlos",
@@ -5490,31 +5778,13 @@ var playersData = [
 		"search_rank": 462
 	},
 	{
-		"first": "Matt",
-		"last": "Ryan",
-		"position": "QB",
-		"team": "",
-		"age": 37,
-		"years_exp": 15,
-		"search_rank": 328
-	},
-	{
-		"first": "Braxton",
-		"last": "Berrios",
-		"position": "WR",
-		"team": "MIA",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 492
-	},
-	{
 		"first": "Tyler",
 		"last": "Boyd",
 		"position": "WR",
-		"team": "CIN",
-		"age": 28,
-		"years_exp": 7,
-		"search_rank": 147
+		"team": "TEN",
+		"age": 29,
+		"years_exp": 8,
+		"search_rank": 238
 	},
 	{
 		"first": "Jordan",
@@ -5522,17 +5792,17 @@ var playersData = [
 		"position": "QB",
 		"team": "GB",
 		"age": 25,
-		"years_exp": 3,
-		"search_rank": 150
+		"years_exp": 4,
+		"search_rank": 28
 	},
 	{
 		"first": "Michael",
 		"last": "Wilson",
 		"position": "WR",
 		"team": "ARI",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 251
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 185
 	},
 	{
 		"first": "Tyrell",
@@ -5544,58 +5814,58 @@ var playersData = [
 		"search_rank": 198
 	},
 	{
+		"first": "Rome",
+		"last": "Odunze",
+		"position": "WR",
+		"team": "CHI",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 56
+	},
+	{
 		"first": "Davion",
 		"last": "Davis",
 		"position": "WR",
-		"team": "ARI",
-		"age": 27,
-		"years_exp": 4,
-		"search_rank": 450
-	},
-	{
-		"first": "Jeff",
-		"last": "Wilson",
-		"position": "RB",
-		"team": "MIA",
+		"team": "WAS",
 		"age": 27,
 		"years_exp": 5,
-		"search_rank": 326
-	},
-	{
-		"first": "Alshon",
-		"last": "Jeffery",
-		"position": "WR",
-		"team": "",
-		"age": 31,
-		"years_exp": 10,
-		"search_rank": 161
+		"search_rank": 450
 	},
 	{
 		"first": "Zach",
 		"last": "Gentry",
 		"position": "TE",
-		"team": "CIN",
+		"team": "LV",
 		"age": 27,
-		"years_exp": 4,
+		"years_exp": 5,
 		"search_rank": 486
 	},
 	{
-		"first": "Rob",
-		"last": "Gronkowski",
-		"position": "TE",
-		"team": "",
-		"age": 32,
-		"years_exp": 12,
-		"search_rank": 118
+		"first": "Jake",
+		"last": "Browning",
+		"position": "QB",
+		"team": "CIN",
+		"age": 28,
+		"years_exp": 5,
+		"search_rank": 475
 	},
 	{
 		"first": "Brian",
 		"last": "Robinson",
 		"position": "RB",
 		"team": "WAS",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 68
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 112
+	},
+	{
+		"first": "Ladd",
+		"last": "McConkey",
+		"position": "WR",
+		"team": "LAC",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 91
 	},
 	{
 		"first": "Dustin",
@@ -5603,8 +5873,8 @@ var playersData = [
 		"position": "K",
 		"team": "CLE",
 		"age": 33,
-		"years_exp": 10,
-		"search_rank": 369
+		"years_exp": 11,
+		"search_rank": 365
 	},
 	{
 		"first": "Devontae",
@@ -5629,18 +5899,18 @@ var playersData = [
 		"last": "Mitchell",
 		"position": "RB",
 		"team": "SF",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 119
+		"age": 26,
+		"years_exp": 3,
+		"search_rank": 198
 	},
 	{
 		"first": "Zach",
 		"last": "Wilson",
 		"position": "QB",
-		"team": "NYJ",
+		"team": "DEN",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 288
+		"years_exp": 3,
+		"search_rank": 427
 	},
 	{
 		"first": "Brett",
@@ -5657,26 +5927,26 @@ var playersData = [
 		"position": "QB",
 		"team": "PHI",
 		"age": 25,
-		"years_exp": 3,
-		"search_rank": 8
+		"years_exp": 4,
+		"search_rank": 7
 	},
 	{
 		"first": "Devin",
 		"last": "Singletary",
 		"position": "RB",
-		"team": "HOU",
+		"team": "NYG",
 		"age": 26,
-		"years_exp": 4,
-		"search_rank": 169
+		"years_exp": 5,
+		"search_rank": 106
 	},
 	{
 		"first": "Tua",
 		"last": "Tagovailoa",
 		"position": "QB",
 		"team": "MIA",
-		"age": 25,
-		"years_exp": 3,
-		"search_rank": 35
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 58
 	},
 	{
 		"first": "Ryan",
@@ -5693,8 +5963,8 @@ var playersData = [
 		"position": "QB",
 		"team": "SEA",
 		"age": 33,
-		"years_exp": 10,
-		"search_rank": 119
+		"years_exp": 11,
+		"search_rank": 130
 	},
 	{
 		"first": "Kaden",
@@ -5709,10 +5979,10 @@ var playersData = [
 		"first": "D'Andre",
 		"last": "Swift",
 		"position": "RB",
-		"team": "PHI",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 51
+		"team": "CHI",
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 70
 	},
 	{
 		"first": "Jared",
@@ -5727,10 +5997,10 @@ var playersData = [
 		"first": "Rondale",
 		"last": "Moore",
 		"position": "WR",
-		"team": "ARI",
-		"age": 23,
-		"years_exp": 2,
-		"search_rank": 176
+		"team": "ATL",
+		"age": 24,
+		"years_exp": 3,
+		"search_rank": 254
 	},
 	{
 		"first": "Alex",
@@ -5756,8 +6026,8 @@ var playersData = [
 		"position": "K",
 		"team": "NE",
 		"age": 24,
-		"years_exp": 0,
-		"search_rank": 370
+		"years_exp": 1,
+		"search_rank": 371
 	},
 	{
 		"first": "T.J.",
@@ -5765,8 +6035,8 @@ var playersData = [
 		"position": "TE",
 		"team": "MIN",
 		"age": 26,
-		"years_exp": 4,
-		"search_rank": 45
+		"years_exp": 5,
+		"search_rank": 80
 	},
 	{
 		"first": "Xavier",
@@ -5782,9 +6052,9 @@ var playersData = [
 		"last": "Jones",
 		"position": "QB",
 		"team": "NYG",
-		"age": 26,
-		"years_exp": 4,
-		"search_rank": 107
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 223
 	},
 	{
 		"first": "Brandin",
@@ -5792,17 +6062,8 @@ var playersData = [
 		"position": "WR",
 		"team": "DAL",
 		"age": 30,
-		"years_exp": 9,
-		"search_rank": 94
-	},
-	{
-		"first": "Troy",
-		"last": "Fumagalli",
-		"position": "TE",
-		"team": "MIN",
-		"age": 28,
-		"years_exp": 5,
-		"search_rank": 284
+		"years_exp": 10,
+		"search_rank": 153
 	},
 	{
 		"first": "Younghoe",
@@ -5810,17 +6071,17 @@ var playersData = [
 		"position": "K",
 		"team": "ATL",
 		"age": 29,
-		"years_exp": 6,
-		"search_rank": 134
+		"years_exp": 7,
+		"search_rank": 172
 	},
 	{
 		"first": "Clyde",
 		"last": "Edwards-Helaire",
 		"position": "RB",
 		"team": "KC",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 195
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 239
 	},
 	{
 		"first": "Steven",
@@ -5836,27 +6097,18 @@ var playersData = [
 		"last": "Waddle",
 		"position": "WR",
 		"team": "MIA",
-		"age": 24,
-		"years_exp": 2,
-		"search_rank": 22
-	},
-	{
-		"first": "Lew",
-		"last": "Nichols",
-		"position": "RB",
-		"team": "PHI",
-		"age": 22,
-		"years_exp": 0,
-		"search_rank": 497
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 37
 	},
 	{
 		"first": "Jaxon",
 		"last": "Smith-Njigba",
 		"position": "WR",
 		"team": "SEA",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 69
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 95
 	},
 	{
 		"first": "Paul",
@@ -5882,17 +6134,17 @@ var playersData = [
 		"position": "K",
 		"team": "KC",
 		"age": 28,
-		"years_exp": 6,
-		"search_rank": 116
+		"years_exp": 7,
+		"search_rank": 164
 	},
 	{
 		"first": "Khalil",
 		"last": "Herbert",
 		"position": "RB",
 		"team": "CHI",
-		"age": 25,
-		"years_exp": 2,
-		"search_rank": 95
+		"age": 26,
+		"years_exp": 3,
+		"search_rank": 191
 	},
 	{
 		"first": "Gavin",
@@ -5900,26 +6152,53 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 24,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 284
+	},
+	{
+		"first": "Kimani",
+		"last": "Vidal",
+		"position": "RB",
+		"team": "LAC",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 180
 	},
 	{
 		"first": "Cade",
 		"last": "Otton",
 		"position": "TE",
 		"team": "TB",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 123
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 148
+	},
+	{
+		"first": "Quez",
+		"last": "Watkins",
+		"position": "WR",
+		"team": "PIT",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 421
 	},
 	{
 		"first": "Kadarius",
 		"last": "Toney",
 		"position": "WR",
 		"team": "KC",
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 306
+	},
+	{
+		"first": "Dylan",
+		"last": "Laube",
+		"position": "RB",
+		"team": "LV",
 		"age": 24,
-		"years_exp": 2,
-		"search_rank": 99
+		"years_exp": 0,
+		"search_rank": 278
 	},
 	{
 		"first": "Chris",
@@ -5927,8 +6206,8 @@ var playersData = [
 		"position": "RB",
 		"team": "CIN",
 		"age": 26,
-		"years_exp": 2,
-		"search_rank": 365
+		"years_exp": 3,
+		"search_rank": 385
 	},
 	{
 		"first": "Christian",
@@ -5944,8 +6223,8 @@ var playersData = [
 		"last": "Brooks",
 		"position": "RB",
 		"team": "MIA",
-		"age": 23,
-		"years_exp": 0,
+		"age": 24,
+		"years_exp": 1,
 		"search_rank": 344
 	},
 	{
@@ -5953,9 +6232,9 @@ var playersData = [
 		"last": "Carlson",
 		"position": "K",
 		"team": "GB",
-		"age": 25,
-		"years_exp": 0,
-		"search_rank": 367
+		"age": 26,
+		"years_exp": 1,
+		"search_rank": 352
 	},
 	{
 		"first": "Dylan",
@@ -5971,27 +6250,27 @@ var playersData = [
 		"last": "Zuerlein",
 		"position": "K",
 		"team": "NYJ",
-		"age": 35,
-		"years_exp": 11,
-		"search_rank": 178
+		"age": 36,
+		"years_exp": 12,
+		"search_rank": 400
 	},
 	{
 		"first": "Jayden",
 		"last": "Reed",
 		"position": "WR",
 		"team": "GB",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 213
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 73
 	},
 	{
-		"first": "Robert",
-		"last": "Griffin",
-		"position": "QB",
-		"team": "",
-		"age": 31,
-		"years_exp": 10,
-		"search_rank": 484
+		"first": "Emani",
+		"last": "Bailey",
+		"position": "RB",
+		"team": "KC",
+		"age": 22,
+		"years_exp": 0,
+		"search_rank": 446
 	},
 	{
 		"first": "DeShone",
@@ -6008,43 +6287,52 @@ var playersData = [
 		"position": "WR",
 		"team": "CIN",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 488
+		"years_exp": 1,
+		"search_rank": 375
 	},
 	{
 		"first": "Sam",
 		"last": "Darnold",
 		"position": "QB",
-		"team": "SF",
-		"age": 26,
-		"years_exp": 5,
-		"search_rank": 460
+		"team": "MIN",
+		"age": 27,
+		"years_exp": 6,
+		"search_rank": 292
+	},
+	{
+		"first": "Malik",
+		"last": "Washington",
+		"position": "WR",
+		"team": "MIA",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 282
 	},
 	{
 		"first": "Rachaad",
 		"last": "White",
 		"position": "RB",
 		"team": "TB",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 74
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 40
 	},
 	{
 		"first": "Tanner",
 		"last": "Brown",
 		"position": "K",
-		"team": "",
-		"age": 23,
-		"years_exp": 0,
-		"search_rank": 324
+		"team": "LAR",
+		"age": 24,
+		"years_exp": 1,
+		"search_rank": 341
 	},
 	{
 		"first": "Jesper",
 		"last": "Horsted",
 		"position": "TE",
-		"team": "LV",
-		"age": 26,
-		"years_exp": 4,
+		"team": "NO",
+		"age": 27,
+		"years_exp": 5,
 		"search_rank": 393
 	},
 	{
@@ -6052,9 +6340,18 @@ var playersData = [
 		"last": "Dotson",
 		"position": "WR",
 		"team": "WAS",
-		"age": 23,
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 151
+	},
+	{
+		"first": "Jaren",
+		"last": "Hall",
+		"position": "QB",
+		"team": "MIN",
+		"age": 26,
 		"years_exp": 1,
-		"search_rank": 75
+		"search_rank": 381
 	},
 	{
 		"first": "James",
@@ -6062,8 +6359,8 @@ var playersData = [
 		"position": "RB",
 		"team": "BUF",
 		"age": 24,
-		"years_exp": 1,
-		"search_rank": 77
+		"years_exp": 2,
+		"search_rank": 46
 	},
 	{
 		"first": "Chad",
@@ -6097,9 +6394,18 @@ var playersData = [
 		"last": "Hill",
 		"position": "RB",
 		"team": "BAL",
-		"age": 25,
-		"years_exp": 4,
-		"search_rank": 406
+		"age": 26,
+		"years_exp": 5,
+		"search_rank": 278
+	},
+	{
+		"first": "Joe",
+		"last": "Milton",
+		"position": "QB",
+		"team": "NE",
+		"age": 24,
+		"years_exp": 0,
+		"search_rank": 472
 	},
 	{
 		"first": "Xazavian",
@@ -6107,26 +6413,44 @@ var playersData = [
 		"position": "RB",
 		"team": "NYJ",
 		"age": 25,
-		"years_exp": 0,
-		"search_rank": 436
+		"years_exp": 1,
+		"search_rank": 437
+	},
+	{
+		"first": "Noah",
+		"last": "Gray",
+		"position": "TE",
+		"team": "KC",
+		"age": 25,
+		"years_exp": 3,
+		"search_rank": 491
 	},
 	{
 		"first": "Khalil",
 		"last": "Shakir",
 		"position": "WR",
 		"team": "BUF",
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 126
+	},
+	{
+		"first": "Johnny",
+		"last": "Wilson",
+		"position": "WR",
+		"team": "PHI",
 		"age": 23,
-		"years_exp": 1,
-		"search_rank": 261
+		"years_exp": 0,
+		"search_rank": 456
 	},
 	{
 		"first": "Matthew",
 		"last": "Stafford",
 		"position": "QB",
 		"team": "LAR",
-		"age": 35,
-		"years_exp": 14,
-		"search_rank": 207
+		"age": 36,
+		"years_exp": 15,
+		"search_rank": 65
 	},
 	{
 		"first": "Dak",
@@ -6134,17 +6458,35 @@ var playersData = [
 		"position": "QB",
 		"team": "DAL",
 		"age": 30,
-		"years_exp": 7,
-		"search_rank": 70
+		"years_exp": 8,
+		"search_rank": 42
 	},
 	{
-		"first": "Anthony",
-		"last": "Brown",
-		"position": "QB",
-		"team": "",
+		"first": "Audric",
+		"last": "Estime",
+		"position": "RB",
+		"team": "DEN",
+		"age": 20,
+		"years_exp": 0,
+		"search_rank": 200
+	},
+	{
+		"first": "Trey",
+		"last": "Sermon",
+		"position": "RB",
+		"team": "IND",
 		"age": 25,
-		"years_exp": 1,
-		"search_rank": 354
+		"years_exp": 3,
+		"search_rank": 411
+	},
+	{
+		"first": "Drew",
+		"last": "Lock",
+		"position": "QB",
+		"team": "NYG",
+		"age": 27,
+		"years_exp": 5,
+		"search_rank": 396
 	},
 	{
 		"first": "Dion",
@@ -6160,18 +6502,27 @@ var playersData = [
 		"last": "Abdullah",
 		"position": "RB",
 		"team": "LV",
-		"age": 30,
-		"years_exp": 8,
-		"search_rank": 438
+		"age": 31,
+		"years_exp": 9,
+		"search_rank": 497
 	},
 	{
-		"first": "Pierre",
-		"last": "Strong",
+		"first": "Josh",
+		"last": "Ali",
+		"position": "WR",
+		"team": "ATL",
+		"age": 25,
+		"years_exp": 2,
+		"search_rank": 386
+	},
+	{
+		"first": "La'Mical",
+		"last": "Perine",
 		"position": "RB",
-		"team": "CLE",
-		"age": 24,
-		"years_exp": 1,
-		"search_rank": 269
+		"team": "PIT",
+		"age": 26,
+		"years_exp": 4,
+		"search_rank": 487
 	},
 	{
 		"first": "Theo",
@@ -6183,13 +6534,22 @@ var playersData = [
 		"search_rank": 456
 	},
 	{
-		"first": "Jordan",
-		"last": "Matthews",
-		"position": "TE",
-		"team": "CAR",
+		"first": "Max",
+		"last": "Duggan",
+		"position": "QB",
+		"team": "LAC",
+		"age": 23,
+		"years_exp": 1,
+		"search_rank": 393
+	},
+	{
+		"first": "Robbie",
+		"last": "Chosen",
+		"position": "WR",
+		"team": "",
 		"age": 31,
-		"years_exp": 9,
-		"search_rank": 297
+		"years_exp": 8,
+		"search_rank": 345
 	},
 	{
 		"first": "Ryan",
@@ -6199,15 +6559,6 @@ var playersData = [
 		"age": 33,
 		"years_exp": 10,
 		"search_rank": 292
-	},
-	{
-		"first": "Mike",
-		"last": "Strachan",
-		"position": "WR",
-		"team": "CAR",
-		"age": 26,
-		"years_exp": 2,
-		"search_rank": 381
 	},
 	{
 		"first": "Albert",
@@ -6224,26 +6575,44 @@ var playersData = [
 		"position": "TE",
 		"team": "ATL",
 		"age": 23,
-		"years_exp": 2,
-		"search_rank": 50
+		"years_exp": 3,
+		"search_rank": 57
 	},
 	{
 		"first": "AJ",
 		"last": "McCarron",
 		"position": "QB",
-		"team": "CIN",
+		"team": "",
 		"age": 33,
-		"years_exp": 9,
+		"years_exp": 10,
 		"search_rank": 311
 	},
 	{
 		"first": "Melvin",
 		"last": "Gordon",
 		"position": "RB",
-		"team": "BAL",
+		"team": "",
 		"age": 30,
-		"years_exp": 8,
+		"years_exp": 9,
 		"search_rank": 401
+	},
+	{
+		"first": "Devontez",
+		"last": "Walker",
+		"position": "WR",
+		"team": "BAL",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 232
+	},
+	{
+		"first": "Boston",
+		"last": "Scott",
+		"position": "RB",
+		"team": "LAR",
+		"age": 29,
+		"years_exp": 6,
+		"search_rank": 367
 	},
 	{
 		"first": "Johnny",
@@ -6251,7 +6620,7 @@ var playersData = [
 		"position": "WR",
 		"team": "",
 		"age": 23,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 469
 	},
 	{
@@ -6260,26 +6629,26 @@ var playersData = [
 		"position": "RB",
 		"team": "DEN",
 		"age": 23,
-		"years_exp": 0,
-		"search_rank": 362
+		"years_exp": 1,
+		"search_rank": 177
 	},
 	{
 		"first": "John",
 		"last": "Ross",
 		"position": "WR",
-		"team": "",
-		"age": 27,
-		"years_exp": 6,
-		"search_rank": 456
+		"team": "PHI",
+		"age": 28,
+		"years_exp": 7,
+		"search_rank": 385
 	},
 	{
 		"first": "Kayshon",
 		"last": "Boutte",
 		"position": "WR",
 		"team": "NE",
-		"age": 21,
-		"years_exp": 0,
-		"search_rank": 377
+		"age": 22,
+		"years_exp": 1,
+		"search_rank": 416
 	},
 	{
 		"first": "Christian",
@@ -6287,53 +6656,80 @@ var playersData = [
 		"position": "TE",
 		"team": "",
 		"age": 22,
-		"years_exp": 0,
+		"years_exp": 1,
 		"search_rank": 449
+	},
+	{
+		"first": "Jacob",
+		"last": "Cowing",
+		"position": "WR",
+		"team": "SF",
+		"age": 23,
+		"years_exp": 0,
+		"search_rank": 360
 	},
 	{
 		"first": "Jerry",
 		"last": "Jeudy",
 		"position": "WR",
-		"team": "DEN",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 59
+		"team": "CLE",
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 138
+	},
+	{
+		"first": "Bucky",
+		"last": "Irving",
+		"position": "RB",
+		"team": "TB",
+		"age": 21,
+		"years_exp": 0,
+		"search_rank": 221
 	},
 	{
 		"first": "Michael",
 		"last": "Gallup",
 		"position": "WR",
-		"team": "DAL",
-		"age": 27,
-		"years_exp": 5,
-		"search_rank": 188
+		"team": "LV",
+		"age": 28,
+		"years_exp": 6,
+		"search_rank": 293
 	},
 	{
 		"first": "CeeDee",
 		"last": "Lamb",
 		"position": "WR",
 		"team": "DAL",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 12
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 3
 	},
 	{
 		"first": "Salvon",
 		"last": "Ahmed",
 		"position": "RB",
 		"team": "MIA",
-		"age": 24,
-		"years_exp": 3,
-		"search_rank": 340
+		"age": 25,
+		"years_exp": 4,
+		"search_rank": 433
 	},
 	{
 		"first": "Jakeem",
 		"last": "Grant",
 		"position": "WR",
-		"team": "CLE",
+		"team": "",
 		"age": 31,
-		"years_exp": 7,
+		"years_exp": 8,
 		"search_rank": 389
+	},
+	{
+		"first": "Aaron",
+		"last": "Shampklin",
+		"position": "RB",
+		"team": "PIT",
+		"age": 24,
+		"years_exp": 2,
+		"search_rank": 445
 	},
 	{
 		"first": "A.J.",
@@ -6349,18 +6745,9 @@ var playersData = [
 		"last": "Aubrey",
 		"position": "K",
 		"team": "DAL",
-		"age": 28,
-		"years_exp": 0,
-		"search_rank": 359
-	},
-	{
-		"first": "Le'Veon",
-		"last": "Bell",
-		"position": "RB",
-		"team": "TB",
 		"age": 29,
-		"years_exp": 9,
-		"search_rank": 235
+		"years_exp": 1,
+		"search_rank": 167
 	},
 	{
 		"first": "Carl",
